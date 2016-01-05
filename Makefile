@@ -15,16 +15,11 @@ set_permissions:
 
 doctrine_init_database:
 	php bin/console doctrine:database:create -q -n
-	php bin/console doctrine:phpcr:init:dbal --force -q -n
-	php bin/console doctrine:phpcr:repository:init -n
 	php bin/console fos:user:create seven_manager lfs.severino@gmail.com s7ven --super-admin -q
 	php bin/console fos:user:create admin admin@admin.com admin --super-admin -q
 
-doctrine_load_fixtures:
-	php bin/console doctrine:phpcr:fixtures:load -n
-
-doctrine_read_mapping:
-	php bin/console doctrine:phpcr:mapping:info
+doctrine_mapping_info:
+	php bin/console doctrine:mapping:info
 
 doctrine_schema_validate:
 	php bin/console doctrine:schema:validate
