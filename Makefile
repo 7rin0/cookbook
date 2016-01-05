@@ -14,8 +14,8 @@ set_permissions:
 	sudo chmod -fR 777 app web
 
 doctrine_init_database:
-	-php bin/console doctrine:database:create -q -n
-	-php bin/console doctrine:phpcr:init:dbal --force -q -n
+	php bin/console doctrine:database:create -q -n
+	php bin/console doctrine:phpcr:init:dbal --force -q -n
 	php bin/console doctrine:phpcr:repository:init -n
 	php bin/console fos:user:create seven_manager lfs.severino@gmail.com s7ven --super-admin -q
 	php bin/console fos:user:create admin admin@admin.com admin --super-admin -q
@@ -29,9 +29,15 @@ doctrine_read_mapping:
 doctrine_schema_validate:
 	php bin/console doctrine:schema:validate
 
-clear_cache:
-	sudo rm -rf app/cache/* app/logs/*
+cc:
+	sudo rm -rf app/cache app/logs
 	php bin/console doctrine:cache:clear-query
+
+cc_dev:
+	php bin/console cache:clear
+
+cc_prod:
+	php bin/console cache:clear --env=prod
 
 docker_build:
 	docker build .
