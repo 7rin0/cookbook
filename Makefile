@@ -7,16 +7,13 @@ get_vendors:
 
 generate_assets:
 	php bin/console assets:install
-	php bin/console assetic:dump
 
 set_permissions:
-	sudo chown -fR $(USER):www-data *
+	sudo chown -fR $(whoami):www-data *
 	sudo chmod -fR 777 app web
 
-doctrine_init_database:
+doctrine_database_create:
 	php bin/console doctrine:database:create -q -n
-	php bin/console fos:user:create seven_manager lfs.severino@gmail.com s7ven --super-admin -q
-	php bin/console fos:user:create admin admin@admin.com admin --super-admin -q
 
 doctrine_mapping_info:
 	php bin/console doctrine:mapping:info

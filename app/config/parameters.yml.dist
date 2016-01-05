@@ -8,9 +8,7 @@ parameters:
     database_name: null
     database_user: null
     database_password: null
-    database_path: '%kernel.root_dir%/sf3_database.sqlite'
-    # You should uncomment this if you want use pdo_sqlite
-    # database_path: "%kernel.root_dir%/data.db3"
+    database_path: %kernel.root_dir%/database/sf3_database.sqlite
 
     mailer_transport:  smtp
     mailer_host:       127.0.0.1
