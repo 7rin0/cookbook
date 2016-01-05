@@ -38,3 +38,6 @@
 
 # Ignore PHPStorm
 .idea*
+
+# Ignore BigfootBundle for now
+/src/BigfootCoreBundle
