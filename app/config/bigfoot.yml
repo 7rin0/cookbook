@@ -1,0 +1,97 @@
+parameters:
+  bigfoot_theme:
+    title: 'Sf3 + bigfoot'
+    subtitle: 'Administration interface'
+
+bigfoot_core:
+    mailer:
+        from: bigfoot@c2is.com
+    languages:
+        back:
+            fr:
+                value: 'fr'
+                date_format: 'dd/MM/yyyy'
+            en:
+                value: 'en'
+                date_format: 'MM/dd/yyyy'
+        front:
+            fr:
+                label:  "French"
+                value:  "fr"
+                parameters:
+                    default_country:    "FR"
+                    fullLocale:         "fr_FR"
+                    domain:             "www.sf3_bigfoot.com"
+            en:
+                label:  "English"
+                value:  "en"
+                parameters:
+                    default_country:    "GB"
+                    fullLocale:         "en_GB"
+                    domain:             "en.sf3_bigfoot.com"
+#
+#bigfoot_context:
+#    contexts:
+#        language:
+#            loaders:
+#                back: "app.loader.language"
+#            values:
+#                fr:
+#                    label: "French"
+#                    value: "fr"
+#                en:
+#                    label: "English"
+#                    value: "en"
+#            default_value: %locale%
+#            label: "Language"
+#        site:
+#            loaders:
+#                back: "app.loader.site"
+#            values:
+#                A:
+#                    name:  "a"
+#                    label: "A"
+#                    value: 1
+#                B:
+#                    name:  "b"
+#                    label: "B"
+#                    value: 2
+#                C:
+#                    name:  "c"
+#                    label: "C"
+#                    value: 3
+#            default_value: 1
+#            label: "Site"
+
+bigfoot_content:
+    templates:
+        page:
+            title_desc:
+                class: 'Bigfoot\Bundle\ContentBundle\Entity\Page\Template\TitleDesc'
+                sub_templates:
+                    title_desc_1: 'Simple page'
+            title_desc_media:
+                class: 'Bigfoot\Bundle\ContentBundle\Entity\Page\Template\TitleDescMedia'
+                sub_templates:
+                    title_desc_media_1: 'Simple page with a picture'
+            title_desc_media_block:
+                class: 'Bigfoot\Bundle\ContentBundle\Entity\Page\Template\TitleDescMediaBlock'
+                sub_templates:
+                    title_desc_media_block_1: 'Page with blocks'
+        sidebar:
+            block:
+                class: 'Bigfoot\Bundle\ContentBundle\Entity\Sidebar\Template\Block'
+                sub_templates:
+                    block_1: 'Blocks'
+        block:
+            title_desc_media:
+                class: 'Bigfoot\Bundle\ContentBundle\Entity\Block\Template\TitleDescMedia'
+                sub_templates:
+                    title_desc_media_1: 'Block (Title + Description + Media)'
+                    title_desc_media_2: 'Block (Title + Description + Media)'
+                    title_desc_media_3: 'Block (Title + Description + Media)'
+                    title_desc_media_4: 'Block (Title + Description + Media)'
+                    title_desc_media_5: 'Block (Title + Description + Media)'
+bigfoot_user:
+    resetting:
+        token_ttl: 1800
