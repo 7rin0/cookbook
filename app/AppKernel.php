@@ -16,6 +16,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Bigfoot\Bundle\CoreBundle\BigfootCoreBundle(),
+            new Bigfoot\Bundle\ContentBundle\BigfootContentBundle(),
             new AppBundle\AppBundle(),
         ];
 
