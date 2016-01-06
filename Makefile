@@ -10,7 +10,7 @@ generate_assets:
 
 set_permissions:
 	sudo chown -fR $(whoami):www-data *
-	sudo chmod -fR 777 app web
+	sudo chmod -fR 777 var app web
 
 doctrine_database_create:
 	php bin/console doctrine:database:create -q -n
