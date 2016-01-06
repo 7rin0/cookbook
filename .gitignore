@@ -42,3 +42,4 @@
 # Ignore BigfootBundle for now
 /src/BigfootCoreBundle
 /src/BigfootContentBundle
+/src/BigfootUserBundle
