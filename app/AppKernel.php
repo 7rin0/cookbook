@@ -15,9 +15,10 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-//            new Bigfoot\Bundle\CoreBundle\BigfootCoreBundle(),
-//            new Bigfoot\Bundle\ContentBundle\BigfootContentBundle(),
-//            new Bigfoot\Bundle\UserBundle\BigfootUserBundle(),
+            new Bigfoot\Bundle\CoreBundle\BigfootCoreBundle(),
+            new Bigfoot\Bundle\ContentBundle\BigfootContentBundle(),
+            new Bigfoot\Bundle\UserBundle\BigfootUserBundle(),
+            new Bigfoot\Bundle\ContextBundle\BigfootContextBundle(),
             new AppBundle\AppBundle(),
         ];
 
