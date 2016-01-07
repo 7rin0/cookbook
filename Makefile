@@ -21,10 +21,6 @@ doctrine_mapping_info:
 doctrine_schema_validate:
 	php bin/console doctrine:schema:validate
 
-cc:
-	sudo rm -rf app/cache app/logs
-	php bin/console doctrine:cache:clear-query
-
 cc_dev:
 	php bin/console cache:clear
 
