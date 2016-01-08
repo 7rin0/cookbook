@@ -45,6 +45,7 @@ class AppKernel extends Kernel
             new Bigfoot\Bundle\ContextBundle\BigfootContextBundle(),
             new Bigfoot\Bundle\UserBundle\BigfootUserBundle(),
             new Bigfoot\Bundle\ContentBundle\BigfootContentBundle(),
+            new Bigfoot\Theme\DefaultThemeBundle\BigfootDefaultThemeBundle(),
 
             // Application Bundle
             new AppBundle\AppBundle(),
