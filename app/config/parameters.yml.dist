@@ -17,3 +17,30 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+    locale: en
+    bigfoot.theme.values:
+        logo: null
+        title: 'SF3 + Bigfoot'
+        subtitle: 'Bigfoot administration interface'
+    bigfoot.theme.bundle: BigfootDefaultThemeBundle
+    bigfoot.core.upload_dir: uploads/
+    bigfoot.media.portfolio_dir: portfolio/
+    bigfoot_migrate:
+        - Bigfoot\Bundle\UserBundle\Entity\Role
+        - Bigfoot\Bundle\ContentBundle\Entity\Page
+        - Bigfoot\Bundle\ContentBundle\Entity\Attribute
+        - Bigfoot\Bundle\ContentBundle\Entity\Block
+        - Bigfoot\Bundle\ContentBundle\Entity\Sidebar
+        - Bigfoot\Bundle\CoreBundle\Entity\Tag
+        - Bigfoot\Bundle\CoreBundle\Entity\TagCategory
+        - Bigfoot\Bundle\CoreBundle\Entity\Widget
+#        - Bigfoot\Bundle\NavigationBundle\Entity\Menu\Item
+#        - Bigfoot\Bundle\MediaBundle\Entity\Metadata
+#        - Bigfoot\Bundle\MediaBundle\Entity\MediaUsage
+#        - Bigfoot\Bundle\MediaBundle\Entity\Media
+#        - Bigfoot\Bundle\SeoBundle\Entity\Metadata
+#        - Bigfoot\Bundle\NavigationBundle\Entity\Menu
+#        - Bigfoot\Bundle\NavigationBundle\Entity\Menu\Item\Attribute
+    available_languages:
+        - fr
+        - en

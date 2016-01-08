@@ -19,7 +19,8 @@ twig:
         resources:
             - '%bigfoot.theme.bundle%:form_custom:inline.html.twig'
     globals:
-        theme:         @bigfoot.theme
+        theme:
+        bigfoot.theme
         bigfoot_theme: %bigfoot_theme%
 
 framework:
