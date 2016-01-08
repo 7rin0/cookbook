@@ -1,0 +1,36 @@
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.xml"
+
+bigfoot_content:
+    resource: "@BigfootContentBundle/Resources/config/routing.yml"
+
+bigfoot_context:
+    resource: "@BigfootContextBundle/Resources/config/routing.yml"
+
+bigfoot_core:
+    resource: "@BigfootCoreBundle/Resources/config/routing.yml"
+
+bigfoot_user:
+    resource: "@BigfootUserBundle/Resources/config/routing.yml"
+
+#bigfoot_import:
+#    resource: "@BigfootImportBundle/Resources/config/routing.yml"
+
+#bigfoot_media:
+#    resource: "@BigfootMediaBundle/Resources/config/routing.yml"
+
+#bigfoot_navigation:
+#    resource: "@BigfootNavigationBundle/Resources/config/routing.yml"
+
+#bigfoot_seo:
+#    resource: "@BigfootSeoBundle/Resources/config/routing.yml"
+
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+_bazinga_jstranslation:
+    resource: "@BazingaJsTranslationBundle/Resources/config/routing/routing.yml"
+
+i18n_routes:
+    resource: i18n_routing.yml
+    type: be_simple_i18n
