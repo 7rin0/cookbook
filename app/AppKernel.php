@@ -35,13 +35,16 @@ class AppKernel extends Kernel
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
-//            new JMS\TwigJsBundle\JMSTwigJsBundle(),
+            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
+            new Craue\FormFlowBundle\CraueFormFlowBundle(),
+            new Presta\SitemapBundle\PrestaSitemapBundle(),
+            new Bazinga\Bundle\JsTranslationBundle\BazingaJsTranslationBundle(),
 
             // Bigfoot Bundles
             new Bigfoot\Bundle\CoreBundle\BigfootCoreBundle(),
-            new Bigfoot\Bundle\ContentBundle\BigfootContentBundle(),
-            new Bigfoot\Bundle\UserBundle\BigfootUserBundle(),
             new Bigfoot\Bundle\ContextBundle\BigfootContextBundle(),
+            new Bigfoot\Bundle\UserBundle\BigfootUserBundle(),
+            new Bigfoot\Bundle\ContentBundle\BigfootContentBundle(),
 
             // Application Bundle
             new AppBundle\AppBundle(),

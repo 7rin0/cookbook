@@ -34,7 +34,11 @@
         "liip/imagine-bundle": "^1.4",
         "friendsofsymfony/jsrouting-bundle": "dev-master",
         "stof/doctrine-extensions-bundle": "dev-master",
-        "javiereguiluz/easyadmin-bundle": "^1.10"
+        "javiereguiluz/easyadmin-bundle": "^1.10",
+        "white-october/pagerfanta-bundle": "^1.0",
+        "craue/formflow-bundle": "dev-master",
+        "presta/sitemap-bundle": "^1.4",
+        "willdurand/js-translation-bundle": "^2.5"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
