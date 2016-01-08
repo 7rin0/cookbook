@@ -35,6 +35,7 @@ class AppKernel extends Kernel
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
+//            new JMS\TwigJsBundle\JMSTwigJsBundle(),
 
             // Bigfoot Bundles
             new Bigfoot\Bundle\CoreBundle\BigfootCoreBundle(),
