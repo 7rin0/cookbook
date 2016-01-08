@@ -12,14 +12,17 @@ set_permissions:
 	sudo chown -fR $(whoami):www-data *
 	sudo chmod -fR 777 var app web
 
-doctrine_database_create:
+d_database_create:
 	php bin/console doctrine:database:create -q -n
 
-doctrine_mapping_info:
+d_mapping_inf:
 	php bin/console doctrine:mapping:info
 
-doctrine_schema_validate:
+d_schema_val:
 	php bin/console doctrine:schema:validate
+
+d_schema_up:
+	php bin/console doctrine:schema:update --force
 
 cc_dev:
 	php bin/console cache:clear
