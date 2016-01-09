@@ -41,6 +41,13 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    globals:
+        locales:              %available_languages%
+        bigfoot_theme:        %bigfoot_theme%
+        bigfoot_theme_bundle: %bigfoot.theme.bundle%
+        bigfoot_context:      "@bigfoot_context"
+#        sf3_sites:           %capi_sites%
+#        sf3_sites_context_name:           %capi_sites_context_name%
 
 # Doctrine Configuration
 doctrine:
@@ -58,6 +65,12 @@ doctrine:
         auto_generate_proxy_classes: "%kernel.debug%"
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
+
+assetic:
+    debug:          "%kernel.debug%"
+    use_controller: false
+    filters:
+        cssrewrite: ~
 
 # Swiftmailer Configuration
 swiftmailer:

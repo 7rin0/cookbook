@@ -3,6 +3,7 @@ imports:
     - { resource: security.yml }
     - { resource: "@BigfootCoreBundle/Resources/config/config.yml" }
     - { resource: "@BigfootCoreBundle/Resources/config/assets.yml" }
+    - { resource: "@BigfootDefaultThemeBundle/Resources/config/assets.yml" }
 #    - { resource: "@BigfootNavigationBundle/Resources/config/assets.yml" }
 #    - { resource: "@BigfootMediaBundle/Resources/config/assets.yml" }
 

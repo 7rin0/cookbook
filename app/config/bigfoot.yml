@@ -32,23 +32,6 @@ bigfoot_core:
 
 bigfoot_context:
     contexts:
-        language_back:
-            loaders:
-                bigfoot: '@bigfoot_context.language_back.loader'
-            default_value: 'en'
-            values:
-                fr:
-                    value: 'fr'
-                    label: 'Français'
-                    parameters:
-                        date_format: 'dd/MM/yyyy'
-                        default_front_locale: 'fr'
-                en:
-                    value: 'en'
-                    label: 'Anglais'
-                    parameters:
-                        date_format: 'MM/dd/yyyy'
-                        default_front_locale: 'en'
         language:
             loaders:
                 back: "app.loader.language"
