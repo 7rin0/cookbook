@@ -36,6 +36,7 @@ class AppKernel extends Kernel
             new BeSimple\I18nRoutingBundle\BeSimpleI18nRoutingBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
+            new JMS\TwigJsBundle\JMSTwigJsBundle(),
 //            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
 //            new JMS\TranslationBundle\JMSTranslationBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),

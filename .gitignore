@@ -40,9 +40,4 @@
 .idea*
 
 # Ignore BigfootBundle for now
-/src/BigfootCoreBundle
-/src/BigfootContentBundle
-/src/BigfootUserBundle
-/src/BigfootContextBundle
-/src/BigfootDefaultTheme
-/src/BeSimpleI18nRoutingBundle
+/src/*

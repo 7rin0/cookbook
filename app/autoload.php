@@ -19,6 +19,7 @@ $loader->add('Bigfoot\\Bundle\\CoreBundle', __DIR__ . '/../bigfoot/core-bundle')
 $loader->add('Bigfoot\\Bundle\\ContextBundle', __DIR__ . '/../bigfoot/context-bundle');
 $loader->add('Bigfoot\\Bundle\\ContentBundle', __DIR__ . '/../bigfoot/content-bundle');
 $loader->add('BeSimple\\I18nRoutingBundle', __DIR__ . '/../besimple/i18n-routing-bundle');
+$loader->add('JMS\\TwigJsBundle', __DIR__ . '/../src/JMSTwigJsBundle');
 
 AnnotationRegistry::registerLoader([$loader, 'loadClass']);
 
