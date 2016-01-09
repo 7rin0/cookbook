@@ -32,13 +32,15 @@ class AppKernel extends Kernel
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
 
             // FOSJsRouting, StofDoctrineExtensions and LiipImagine Bundles
-            new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
-            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
-            new Liip\ImagineBundle\LiipImagineBundle(),
-            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
-            new Craue\FormFlowBundle\CraueFormFlowBundle(),
-            new Presta\SitemapBundle\PrestaSitemapBundle(),
             new Bazinga\Bundle\JsTranslationBundle\BazingaJsTranslationBundle(),
+            new Craue\FormFlowBundle\CraueFormFlowBundle(),
+            new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
+            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
+            new JMS\TranslationBundle\JMSTranslationBundle(),
+            new Liip\ImagineBundle\LiipImagineBundle(),
+            new Presta\SitemapBundle\PrestaSitemapBundle(),
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
 
             // Bigfoot Bundles
             new Bigfoot\Bundle\CoreBundle\BigfootCoreBundle(),
