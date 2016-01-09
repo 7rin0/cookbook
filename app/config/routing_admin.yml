@@ -32,5 +32,5 @@ _bazinga_jstranslation:
     resource: "@BazingaJsTranslationBundle/Resources/config/routing/routing.yml"
 
 i18n_routes:
-    resource: i18n_routing.yml
+    resource: "i18n_routing.yml"
     type: be_simple_i18n

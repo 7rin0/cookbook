@@ -31,12 +31,13 @@ class AppKernel extends Kernel
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
 
-            // FOSJsRouting, StofDoctrineExtensions and LiipImagine Bundles
+            // Other Bundles
             new Bazinga\Bundle\JsTranslationBundle\BazingaJsTranslationBundle(),
+            new BeSimple\I18nRoutingBundle\BeSimpleI18nRoutingBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
-            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
-            new JMS\TranslationBundle\JMSTranslationBundle(),
+//            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
+//            new JMS\TranslationBundle\JMSTranslationBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
             new Presta\SitemapBundle\PrestaSitemapBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
