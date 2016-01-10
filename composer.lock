@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "626963861254e11d0641ee1210829073",
-    "content-hash": "d4a94b3bf1029eb50b871bcfbc409fd8",
+    "hash": "238cdee9d3e57960fb6d3ece3bc0db86",
+    "content-hash": "d29f7798db42604f2ff42d3eb68b161c",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2981,7 +2981,7 @@
         },
         {
             "name": "twig/extensions",
-            "version": "v1.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig-extensions.git",
@@ -3474,7 +3474,8 @@
         "stof/doctrine-extensions-bundle": 20,
         "craue/formflow-bundle": 20,
         "jms/i18n-routing-bundle": 20,
-        "jms/translation-bundle": 20
+        "jms/translation-bundle": 20,
+        "twig/extensions": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

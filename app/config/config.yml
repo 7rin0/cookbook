@@ -46,8 +46,8 @@ twig:
         bigfoot_theme:        %bigfoot_theme%
         bigfoot_theme_bundle: %bigfoot.theme.bundle%
         bigfoot_context:      "@bigfoot_context"
-#        sf3_sites:           %capi_sites%
-#        sf3_sites_context_name:           %capi_sites_context_name%
+#        sf3_sites:           %sf3_sites%
+#        sf3_sites_context_name:           %sf3_sites_context_name%
 
 # Doctrine Configuration
 doctrine:
@@ -62,9 +62,43 @@ doctrine:
         path:     "%database_path%"
 
     orm:
-        auto_generate_proxy_classes: "%kernel.debug%"
-        naming_strategy: doctrine.orm.naming_strategy.underscore
+        auto_generate_proxy_classes: %kernel.debug%
+        connection: default
         auto_mapping: true
+        naming_strategy: doctrine.orm.naming_strategy.underscore
+        mappings:
+            gedmo_translatable:
+                type: annotation
+                prefix: Gedmo\Translatable\Entity
+                dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Translatable/Entity"
+                alias: GedmoTranslatable # this one is optional and will default to the name set for the mapping
+                is_bundle: false
+            gedmo_translator:
+                type: annotation
+                prefix: Gedmo\Translator\Entity
+                dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Translator/Entity"
+                alias: GedmoTranslator # this one is optional and will default to the name set for the mapping
+                is_bundle: false
+            gedmo_loggable:
+                type: annotation
+                prefix: Gedmo\Loggable\Entity
+                dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Loggable/Entity"
+                alias: GedmoLoggable # this one is optional and will default to the name set for the mapping
+                is_bundle: false
+            gedmo_tree:
+                type: annotation
+                prefix: Gedmo\Tree\Entity
+                dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
+                alias: GedmoTree # this one is optional and will default to the name set for the mapping
+                is_bundle: false
+        filters:
+            softdeleteable:
+                class: Gedmo\SoftDeleteable\Filter\SoftDeleteableFilter
+                enabled: true
+        dql:
+            numeric_functions:
+                GEO_DISTANCE: Craue\GeoBundle\Doctrine\Query\Mysql\GeoDistance
+                GEO_DISTANCE_BY_POSTAL_CODE: Craue\GeoBundle\Doctrine\Query\Mysql\GeoDistanceByPostalCode
 
 assetic:
     debug:          "%kernel.debug%"
@@ -79,3 +113,60 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+framework:
+    translator:      { fallbacks: ["%locale%"] }
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+        strict_requirements: ~
+    form:            ~
+    csrf_protection: ~
+    validation:      { enable_annotations: true }
+    #serializer:      { enable_annotations: true }
+    templating:
+        engines: ['twig']
+        #assets_version: SomeVersionScheme
+    default_locale:  "%locale%"
+    trusted_hosts:   ~
+    trusted_proxies: ~
+    session:
+        # handler_id set to null will use default session handler from php.ini
+        handler_id:  ~
+    esi: { enabled: true }
+    fragments: { path: /_fragment }
+    http_method_override: true
+
+# Stof Doctrine Extensions
+stof_doctrine_extensions:
+    default_locale: %locale%
+    orm:
+        default:
+            timestampable:  true
+            blameable:      true
+            translatable:   true
+            softdeleteable: true
+            sortable:       true
+            sluggable:      true
+
+# Translation JS
+bazinga_js_translation:
+    locale_fallback:  en
+    default_domain:   messages
+    http_cache_time:  700
+
+# Sitemap
+presta_sitemap:
+    timetolive: 3600
+    dumper_base_url: "www.sf3.com"
+
+# Twig Extension
+services:
+    twig.extension.intl:
+          class: Twig_Extensions_Extension_Intl
+          tags:
+              - { name: twig.extension }
+    twig.extension.text:
+        class: Twig_Extensions_Extension_Text
+        tags:
+            - { name: twig.extension }

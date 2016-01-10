@@ -40,7 +40,8 @@
         "presta/sitemap-bundle": "^1.4",
         "willdurand/js-translation-bundle": "^2.5",
         "jms/i18n-routing-bundle": "dev-master",
-        "jms/translation-bundle": "dev-master"
+        "jms/translation-bundle": "dev-master",
+        "twig/extensions": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
