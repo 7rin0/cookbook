@@ -1,6 +1,5 @@
 imports:
     - { resource: config.yml }
-    - { resource: security.yml }
     - { resource: "@BigfootCoreBundle/Resources/config/config.yml" }
     - { resource: "@BigfootCoreBundle/Resources/config/assets.yml" }
     - { resource: "@BigfootDefaultThemeBundle/Resources/config/assets.yml" }
