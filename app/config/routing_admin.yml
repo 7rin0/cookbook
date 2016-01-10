@@ -19,8 +19,8 @@ bigfoot_user:
 #bigfoot_media:
 #    resource: "@BigfootMediaBundle/Resources/config/routing.yml"
 
-#bigfoot_navigation:
-#    resource: "@BigfootNavigationBundle/Resources/config/routing.yml"
+bigfoot_navigation:
+    resource: "@BigfootNavigationBundle/Resources/config/routing.yml"
 
 #bigfoot_seo:
 #    resource: "@BigfootSeoBundle/Resources/config/routing.yml"

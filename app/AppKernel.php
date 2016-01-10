@@ -47,10 +47,10 @@ class AppKernel extends Kernel
             // Bigfoot Bundles
             new Bigfoot\Bundle\CoreBundle\BigfootCoreBundle(),
             new Bigfoot\Bundle\ContextBundle\BigfootContextBundle(),
+            new Bigfoot\Bundle\NavigationBundle\BigfootNavigationBundle(),
             new Bigfoot\Bundle\UserBundle\BigfootUserBundle(),
             new Bigfoot\Bundle\ContentBundle\BigfootContentBundle(),
             new Bigfoot\Theme\DefaultThemeBundle\BigfootDefaultThemeBundle(),
-            new Bigfoot\Bundle\NavigationBundle\BigfootNavigationBundle(),
 
             // Application Bundle
             new AppBundle\AppBundle(),
