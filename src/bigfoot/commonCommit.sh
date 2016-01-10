@@ -4,14 +4,13 @@
 directories=$(ls -d */)
 currwordir=$(pwd)
 
-git commit -am"$1"
-
 # Loop through every one and set same message commit
-#for dir in $directories
-#do
-#	cd $dir
-#	git commit -am"$1"
+for dir in $directories
+do
+	cd $dir
+	git pull origin
+	git commit -am"$1"
 #	git push origin
-#	cd ../
-##	echo $currwordir/$dir;
-#done
+	cd ../
+#	echo $currwordir/$dir;
+done
