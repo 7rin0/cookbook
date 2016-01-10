@@ -40,4 +40,4 @@ docker_build:
 	docker build .
 
 run_server:
-	php bin/console server:start 127.0.0.1:7080
+	php bin/console server:start 127.0.0.1:7080 --force
