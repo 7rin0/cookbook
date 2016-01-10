@@ -24,6 +24,12 @@ d_schema_val:
 d_schema_up:
 	php bin/console doctrine:schema:update --force
 
+d_fixtures_load:
+	php bin/console doctrine:fixtures:load
+
+composer_autoload_optimize:
+	composer dump-autoload --optimize
+
 cc_dev:
 	php bin/console cache:clear
 
