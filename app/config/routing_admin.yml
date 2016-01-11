@@ -13,8 +13,8 @@ bigfoot_core:
 bigfoot_user:
     resource: "@BigfootUserBundle/Resources/config/routing.yml"
 
-bigfoot_import:
-    resource: "@BigfootImportBundle/Resources/config/routing.yml"
+#bigfoot_import:
+#    resource: "@BigfootImportBundle/Resources/config/routing.yml"
 
 bigfoot_media:
     resource: "@BigfootMediaBundle/Resources/config/routing.yml"
@@ -22,8 +22,8 @@ bigfoot_media:
 bigfoot_navigation:
     resource: "@BigfootNavigationBundle/Resources/config/routing.yml"
 
-bigfoot_seo:
-    resource: "@BigfootSeoBundle/Resources/config/routing.yml"
+#bigfoot_seo:
+#    resource: "@BigfootSeoBundle/Resources/config/routing.yml"
 
 fos_js_routing:
     resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
