@@ -15,6 +15,7 @@ $loader->add('Bigfoot\\Bundle\\UserBundle', __DIR__ . '/../src/bigfoot/BigfootUs
 $loader->add('Bigfoot\\Bundle\\ContextBundle', __DIR__ . '/../src/bigfoot/ContextBundle');
 $loader->add('Bigfoot\\Bundle\\ContentBundle', __DIR__ . '/../src/bigfoot/BigfootContentBundle');
 $loader->add('Bigfoot\\Bundle\\NavigationBundle', __DIR__ . '/../src/bigfoot/BigfootNavigationBundle');
+$loader->add('Bigfoot\\Bundle\\MediaBundle', __DIR__ . '/../src/bigfoot/BigfootMediaBundle');
 $loader->add('BeSimple\\I18nRoutingBundle', __DIR__ . '/../src/BeSimpleI18nRoutingBundle');
 $loader->add('JMS\\TwigJsBundle', __DIR__ . '/../src/jms/JMSTwigJsBundle');
 
