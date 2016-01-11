@@ -34,13 +34,13 @@ parameters:
         - Bigfoot\Bundle\CoreBundle\Entity\Tag
         - Bigfoot\Bundle\CoreBundle\Entity\TagCategory
         - Bigfoot\Bundle\CoreBundle\Entity\Widget
-#        - Bigfoot\Bundle\NavigationBundle\Entity\Menu\Item
-#        - Bigfoot\Bundle\MediaBundle\Entity\Metadata
-#        - Bigfoot\Bundle\MediaBundle\Entity\MediaUsage
-#        - Bigfoot\Bundle\MediaBundle\Entity\Media
+        - Bigfoot\Bundle\NavigationBundle\Entity\Menu\Item
+        - Bigfoot\Bundle\MediaBundle\Entity\Metadata
+        - Bigfoot\Bundle\MediaBundle\Entity\MediaUsage
+        - Bigfoot\Bundle\MediaBundle\Entity\Media
 #        - Bigfoot\Bundle\SeoBundle\Entity\Metadata
-#        - Bigfoot\Bundle\NavigationBundle\Entity\Menu
-#        - Bigfoot\Bundle\NavigationBundle\Entity\Menu\Item\Attribute
+        - Bigfoot\Bundle\NavigationBundle\Entity\Menu
+        - Bigfoot\Bundle\NavigationBundle\Entity\Menu\Item\Attribute
     available_languages:
         - fr
         - en

@@ -8,13 +8,13 @@ bigfoot_context:
     type:     annotation
     prefix:   /admin
     schemes: [ %bigfoot.scheme% ]
-#
-#bigfoot_media:
-#    resource: "@BigfootMediaBundle/Resources/config/routing.yml"
-#
-#bigfoot_navigation:
-#    resource: "@BigfootNavigationBundle/Resources/config/routing.yml"
-#
+
+bigfoot_media:
+    resource: "@BigfootMediaBundle/Resources/config/routing.yml"
+
+bigfoot_navigation:
+    resource: "@BigfootNavigationBundle/Resources/config/routing.yml"
+
 
 PrestaSitemapBundle:
     resource: "@PrestaSitemapBundle/Resources/config/routing.yml"
