@@ -30,38 +30,38 @@ bigfoot_core:
                     fullLocale:         "en_GB"
                     domain:             "en.sf3_bigfoot.com"
 
-bigfoot_context:
-    contexts:
-        language:
-            loaders:
-                back: "app.loader.language"
-            values:
-                fr:
-                    label: "French"
-                    value: "fr"
-                en:
-                    label: "English"
-                    value: "en"
-            default_value: %locale%
-            label: "Language"
-        site:
-            loaders:
-                back: "app.loader.site"
-            values:
-                A:
-                    name:  "a"
-                    label: "A"
-                    value: 1
-                B:
-                    name:  "b"
-                    label: "B"
-                    value: 2
-                C:
-                    name:  "c"
-                    label: "C"
-                    value: 3
-            default_value: 1
-            label: "Site"
+#bigfoot_context:
+#    contexts:
+#        language:
+#            loaders:
+#                back: "app.loader.language"
+#            values:
+#                fr:
+#                    label: "French"
+#                    value: "fr"
+#                en:
+#                    label: "English"
+#                    value: "en"
+#            default_value: %locale%
+#            label: "Language"
+#        site:
+#            loaders:
+#                back: "app.loader.site"
+#            values:
+#                A:
+#                    name:  "a"
+#                    label: "A"
+#                    value: 1
+#                B:
+#                    name:  "b"
+#                    label: "B"
+#                    value: 2
+#                C:
+#                    name:  "c"
+#                    label: "C"
+#                    value: 3
+#            default_value: 1
+#            label: "Site"
 
 bigfoot_content:
     templates:

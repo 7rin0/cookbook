@@ -5,6 +5,7 @@ imports:
     - { resource: imagine.yml }
     - { resource: security.yml }
     - { resource: "@BigfootCoreBundle/Resources/config/config.yml" }
+    - { resource: "@BigfootContextBundle/Resources/config/config.yml" }
     - { resource: "@BigfootMediaBundle/Resources/config/config.yml" }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
