@@ -1,7 +1,7 @@
 parameters:
-  bigfoot_theme:
-    title: 'Sf3 + bigfoot'
-    subtitle: 'Administration interface'
+    bigfoot_theme:
+      title: 'Sf3 + bigfoot'
+      subtitle: 'Administration interface'
 
 bigfoot_core:
     mailer:
@@ -21,14 +21,14 @@ bigfoot_core:
                 parameters:
                     default_country:    "FR"
                     fullLocale:         "fr_FR"
-                    domain:             "www.sf3_bigfoot.com"
+                    domain:             "http://127.0.0.1:7080/"
             en:
                 label:  "English"
                 value:  "en"
                 parameters:
                     default_country:    "GB"
                     fullLocale:         "en_GB"
-                    domain:             "en.sf3_bigfoot.com"
+                    domain:             "http://127.0.0.1:7080/en/"
 
 #bigfoot_context:
 #    contexts:

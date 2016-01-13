@@ -1,11 +1,11 @@
 _liip_imagine:
     resource: "@LiipImagineBundle/Resources/config/routing.xml"
 
-bigfoot_content:
-    resource: "@BigfootContentBundle/Resources/config/routing.yml"
-
 bigfoot_core:
     resource: "@BigfootCoreBundle/Resources/config/routing.yml"
+
+bigfoot_content:
+    resource: "@BigfootContentBundle/Resources/config/routing.yml"
 
 bigfoot_context:
     resource: "@BigfootContextBundle/Resources/config/routing.yml"
