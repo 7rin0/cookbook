@@ -18,6 +18,7 @@ $loader->add('Bigfoot\\Bundle\\NavigationBundle', __DIR__ . '/../src/bigfoot/Big
 $loader->add('Bigfoot\\Bundle\\MediaBundle', __DIR__ . '/../src/bigfoot/BigfootMediaBundle');
 $loader->add('BeSimple\\I18nRoutingBundle', __DIR__ . '/../src/BeSimpleI18nRoutingBundle');
 $loader->add('JMS\\TwigJsBundle', __DIR__ . '/../src/jms/JMSTwigJsBundle');
+//$loader->add('JMS\\SerializerBundle', __DIR__ . '/../src/jms/JMSSerializerBundle');
 
 AnnotationRegistry::registerLoader([$loader, 'loadClass']);
 
