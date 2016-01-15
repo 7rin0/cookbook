@@ -25,7 +25,7 @@ class AppKernel extends Kernel
 
             // Doctrine Bundles
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
-            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+//            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
 
             // KNP Bundles
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
