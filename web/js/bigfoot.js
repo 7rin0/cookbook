@@ -5399,7 +5399,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
      */
     $('.sidebar .active > .submenu').toggle();
 
-    $('.sidebar li.parent > a').on('click', function (event) {
+    $('.sidebar li.parent a.dropdown-toggle').on('click', function (event) {
         event.preventDefault();
 
         if ($(this).closest('li').hasClass('parent')) {
