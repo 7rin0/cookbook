@@ -5395,23 +5395,10 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
     setTranslatableFields();
 
     /**
-     * Sidebar toggle
+     * General Toogle
      */
-    $('.sidebar .active > .submenu').toggle();
-
-    $('.sidebar li.parent a.dropdown-toggle').on('click', function (event) {
-        event.preventDefault();
-
-        if ($(this).closest('li').hasClass('parent')) {
-            $('.sidebar li').removeClass('open');
-            $('.submenu').hide();
-        }
-
-        $(this)
-            .closest('li')
-            .addClass('open')
-            .find('.submenu:first')
-            .toggle(300);
+    $('a.dropdown-toggle').on('click', function (event) {
+        $(this).siblings('ul.dropdown-menu, ul.submenu').toggle(300);
     });
 
     /**
