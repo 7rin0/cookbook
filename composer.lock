@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craue/CraueFormFlowBundle.git",
-                "reference": "82b9ce9e73818a41369e122cff3aa04805d7888e"
+                "reference": "db8f9016475fe30eb2d60dbf95d6861e1df21e9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/82b9ce9e73818a41369e122cff3aa04805d7888e",
-                "reference": "82b9ce9e73818a41369e122cff3aa04805d7888e",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/db8f9016475fe30eb2d60dbf95d6861e1df21e9d",
+                "reference": "db8f9016475fe30eb2d60dbf95d6861e1df21e9d",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
                 "symfony3",
                 "wizard"
             ],
-            "time": "2016-01-05 18:03:56"
+            "time": "2016-01-19 10:55:32"
         },
         {
             "name": "doctrine/annotations",
@@ -1237,16 +1237,16 @@
         },
         {
             "name": "javiereguiluz/easyadmin-bundle",
-            "version": "v1.10.3",
+            "version": "v1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/javiereguiluz/EasyAdminBundle.git",
-                "reference": "3c721879fee8eb6449c04bf27f3c954a05853c06"
+                "reference": "531401192541696f643a9935eb2ca686a57cac55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/3c721879fee8eb6449c04bf27f3c954a05853c06",
-                "reference": "3c721879fee8eb6449c04bf27f3c954a05853c06",
+                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/531401192541696f643a9935eb2ca686a57cac55",
+                "reference": "531401192541696f643a9935eb2ca686a57cac55",
                 "shasum": ""
             },
             "require": {
@@ -1312,7 +1312,7 @@
                 "backend",
                 "generator"
             ],
-            "time": "2016-01-14 17:16:15"
+            "time": "2016-01-17 20:36:12"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -3240,16 +3240,16 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.3.10",
+            "version": "v2.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51"
+                "reference": "5e1a90f28213231ceee19c953bbebc5b5b95c690"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51",
-                "reference": "de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/5e1a90f28213231ceee19c953bbebc5b5b95c690",
+                "reference": "5e1a90f28213231ceee19c953bbebc5b5b95c690",
                 "shasum": ""
             },
             "require": {
@@ -3293,7 +3293,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2016-01-14 10:25:38"
+            "time": "2016-01-15 16:41:20"
         },
         {
             "name": "symfony/symfony",
