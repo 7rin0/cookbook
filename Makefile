@@ -32,9 +32,11 @@ composer_autoload_optimize:
 
 cc_dev:
 	php bin/console cache:clear
+	php bin/console cache:clear -e=admin_dev
 
 cc_prod:
 	php bin/console cache:clear --env=prod
+	php bin/console cache:clear -e=admin
 
 docker_build:
 	docker build .
