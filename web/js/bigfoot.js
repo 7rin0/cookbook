@@ -5400,7 +5400,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
     $('a.dropdown-toggle').on('click', function (event) {
         $(this).siblings('ul.dropdown-menu, ul.submenu').toggle(300);
     });
-    $('ul.submenu li.active').closest('ul.submenu').toggle(300);
+    $('ul.submenu li.active, .parent.active > ul.submenu').closest('ul.submenu').toggle(300);
 
     /**
      * Delete collection item
