@@ -1,4 +1,4 @@
-$(function () {
+!function ($) {
 
     /**
      * Init functions
@@ -11,7 +11,7 @@ $(function () {
      */
     $('.sidebar .active > .submenu').toggle();
 
-    $('.sidebar li.parent a.dropdown-toggle').on('click', function (event) {
+    $('.sidebar li.parent > a').on('click', function (event) {
         event.preventDefault();
 
         if ($(this).closest('li').hasClass('parent')) {
@@ -145,7 +145,7 @@ $(function () {
         });
     });
 
-});
+}(jQuery);
 
 /**
  * Translatable fields
