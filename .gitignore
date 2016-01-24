@@ -41,3 +41,6 @@
 
 # Ignore BigfootBundle for now
 /src/*
+
+# Ignore sqlite database
+*.sqlite
