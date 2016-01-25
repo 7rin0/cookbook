@@ -10,7 +10,7 @@ do
 	cd $dir
 	git pull origin
 	git commit -am"$1"
-#	git push origin
+	git push origin
 	cd ../
 #	echo $currwordir/$dir;
 done
