@@ -5331,7 +5331,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 
 }(window.jQuery);
 
-!function($) {
+$(function() {
 
     /*
      * Ajax modal
@@ -5384,9 +5384,9 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
         $this.text(text.join('\n\n').replace(/\t/g, '    '));
     });
 
-}(window.jQuery);
+});
 
-!function ($) {
+$(function () {
 
     /**
      * Init functions
@@ -5395,12 +5395,32 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
     setTranslatableFields();
 
     /**
+     * Sidebar toggle
+     */
+    $('.sidebar .active > .submenu').toggle();
+    $('ul.submenu li.active').closest('ul.submenu').toggle(300);
+
+    $('.sidebar li.parent a.dropdown-toggle').on('click', function (event) {
+        event.preventDefault();
+
+        if ($(this).closest('li').hasClass('parent')) {
+            $('.sidebar li').removeClass('open');
+            $('.submenu').hide();
+        }
+
+        $(this)
+            .closest('li')
+            .addClass('open')
+            .find('.submenu:first')
+            .toggle(300);
+    });
+
+    /**
      * General Toogle
      */
     $('a.dropdown-toggle').on('click', function (event) {
         $(this).siblings('ul.dropdown-menu, ul.submenu').toggle(300);
     });
-    $('ul.submenu li.active, .parent.active > ul.submenu').closest('ul.submenu').toggle(300);
 
     /**
      * Delete collection item
@@ -5521,7 +5541,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
         });
     });
 
-}(window.jQuery);
+});
 
 /**
  * Translatable fields
