@@ -33,7 +33,7 @@ class AppKernel extends Kernel
 
             // Other Bundles
             new Bazinga\Bundle\JsTranslationBundle\BazingaJsTranslationBundle(),
-            new BeSimple\I18nRoutingBundle\BeSimpleI18nRoutingBundle(),
+//            new BeSimple\I18nRoutingBundle\BeSimpleI18nRoutingBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new JMS\TwigJsBundle\JMSTwigJsBundle(),

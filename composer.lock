@@ -4,9 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e9b51f86ee44ba9cfea0c3fcf66522c",
-    "content-hash": "25a97bc226145757c8dfa4a2a172e9c3",
+    "hash": "eb823eb1377cd7ec815d77b6ee2afbb7",
+    "content-hash": "39c62b34de2f33bc1b27eefe18408146",
     "packages": [
+        {
+            "name": "7rin0/bigfoot-core-bundle",
+            "version": "dev-master",
+            "target-dir": "Bigfoot/Bundle/CoreBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/7rin0/BigfootCoreBundle.git",
+                "reference": "d00518b20d0e46c6fd5619141dc27dc61162efcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/7rin0/BigfootCoreBundle/zipball/d00518b20d0e46c6fd5619141dc27dc61162efcb",
+                "reference": "d00518b20d0e46c6fd5619141dc27dc61162efcb",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofsymfony/jsrouting-bundle": "dev-master",
+                "knplabs/knp-menu-bundle": "2.1.1",
+                "knplabs/knp-paginator-bundle": "2.5.1",
+                "liip/imagine-bundle": "~1.4",
+                "symfony/assetic-bundle": "2.7.1",
+                "symfony/framework-bundle": "^3.0",
+                "symfony/symfony": "~3.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Bigfoot\\Bundle\\CoreBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume Manen",
+                    "email": "g.manen@c2is.fr"
+                },
+                {
+                    "name": "Luis SEVERINO",
+                    "email": "lfs.severino@gmail.com"
+                }
+            ],
+            "description": "Bigfoot core bundle",
+            "time": "2016-02-01 22:09:36"
+        },
         {
             "name": "behat/transliterator",
             "version": "v1.1.0",
@@ -57,7 +109,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/fd090f2c9d7248837f5582a345dd981cc074fe94",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/2aaead1be532777d31775a9ceaadff0c02481b9f",
                 "reference": "fd090f2c9d7248837f5582a345dd981cc074fe94",
                 "shasum": ""
             },
@@ -3808,7 +3860,8 @@
         "jms/i18n-routing-bundle": 20,
         "jms/translation-bundle": 20,
         "twig/extensions": 20,
-        "jms/serializer-bundle": 20
+        "jms/serializer-bundle": 20,
+        "7rin0/bigfoot-core-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
