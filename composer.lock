@@ -4,9 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1bfcfd90ea8a18849d3fd9aa0d4a7866",
-    "content-hash": "f740960161cc77bdbf4e03c2166fd584",
+    "hash": "a361c189d7fc8f20432d64e79da38cb5",
+    "content-hash": "a6e499a9571f60636cc381b0f38bddc4",
     "packages": [
+        {
+            "name": "7rin0/bigfoot-context-bundle",
+            "version": "dev-master",
+            "target-dir": "Bigfoot/Bundle/ContextBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/7rin0/BigfootContextBundle.git",
+                "reference": "36a1947ceed029b73037a3058bdced1277918ad0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/7rin0/BigfootContextBundle/zipball/36a1947ceed029b73037a3058bdced1277918ad0",
+                "reference": "36a1947ceed029b73037a3058bdced1277918ad0",
+                "shasum": ""
+            },
+            "require": {
+                "7rin0/bigfoot-core-bundle": "~4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Bigfoot\\Bundle\\ContextBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume Manen",
+                    "email": "g.manen@c2is.fr"
+                },
+                {
+                    "name": "Luis SEVERINO",
+                    "email": "lfs.severino@gmail.com"
+                }
+            ],
+            "description": "Bigfoot context bundle",
+            "time": "2016-01-26 01:06:27"
+        },
         {
             "name": "7rin0/bigfoot-core-bundle",
             "version": "dev-master",
@@ -58,6 +104,98 @@
             ],
             "description": "Bigfoot core bundle",
             "time": "2016-02-01 22:09:36"
+        },
+        {
+            "name": "7rin0/bigfoot-navigation-bundle",
+            "version": "dev-master",
+            "target-dir": "Bigfoot/Bundle/NavigationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/7rin0/BigfootNavigationBundle.git",
+                "reference": "a182c419a5084a1cd396c9fd4d087790bf988727"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/7rin0/BigfootNavigationBundle/zipball/a182c419a5084a1cd396c9fd4d087790bf988727",
+                "reference": "a182c419a5084a1cd396c9fd4d087790bf988727",
+                "shasum": ""
+            },
+            "require": {
+                "7rin0/bigfoot-core-bundle": "~4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Bigfoot\\Bundle\\NavigationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume Manen",
+                    "email": "g.manen@c2is.fr"
+                },
+                {
+                    "name": "Luis SEVERINO",
+                    "email": "lfs.severino@gmail.com"
+                }
+            ],
+            "description": "Bigfoot navigation bundle",
+            "time": "2016-02-01 22:03:57"
+        },
+        {
+            "name": "7rin0/bigfoot-user-bundle",
+            "version": "dev-master",
+            "target-dir": "Bigfoot/Bundle/UserBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/7rin0/BigfootUserBundle.git",
+                "reference": "fc4999973e8dd06b4e0b87f3f653815b80e36ad3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/7rin0/BigfootUserBundle/zipball/fc4999973e8dd06b4e0b87f3f653815b80e36ad3",
+                "reference": "fc4999973e8dd06b4e0b87f3f653815b80e36ad3",
+                "shasum": ""
+            },
+            "require": {
+                "7rin0/bigfoot-core-bundle": "~4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Bigfoot\\Bundle\\UserBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume Manen",
+                    "email": "g.manen@c2is.fr"
+                },
+                {
+                    "name": "Luis SEVERINO",
+                    "email": "lfs.severino@gmail.com"
+                }
+            ],
+            "description": "Bigfoot user bundle",
+            "time": "2016-01-31 21:52:05"
         },
         {
             "name": "behat/transliterator",
@@ -3862,7 +4000,10 @@
         "jms/translation-bundle": 20,
         "twig/extensions": 20,
         "jms/serializer-bundle": 20,
-        "7rin0/bigfoot-core-bundle": 20
+        "7rin0/bigfoot-core-bundle": 20,
+        "7rin0/bigfoot-context-bundle": 20,
+        "7rin0/bigfoot-navigation-bundle": 20,
+        "7rin0/bigfoot-user-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
