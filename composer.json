@@ -57,7 +57,9 @@
         "7rin0/bigfoot-core-bundle": "@dev",
         "7rin0/bigfoot-context-bundle": "@dev",
         "7rin0/bigfoot-navigation-bundle": "@dev",
-        "7rin0/bigfoot-user-bundle": "@dev"
+        "7rin0/bigfoot-user-bundle": "@dev",
+        "7rin0/bigfoot-media-bundle": "@dev",
+        "7rin0/bigfoot-default-theme": "@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

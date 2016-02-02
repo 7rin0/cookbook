@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a361c189d7fc8f20432d64e79da38cb5",
-    "content-hash": "a6e499a9571f60636cc381b0f38bddc4",
+    "hash": "8cc848e1689484075e563ec6117baf5a",
+    "content-hash": "c40c14abbeb8c076dd9850eab98c682c",
     "packages": [
         {
             "name": "7rin0/bigfoot-context-bundle",
@@ -104,6 +104,98 @@
             ],
             "description": "Bigfoot core bundle",
             "time": "2016-02-01 22:09:36"
+        },
+        {
+            "name": "7rin0/bigfoot-default-theme",
+            "version": "dev-master",
+            "target-dir": "Bigfoot/Theme/DefaultThemeBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/7rin0/BigfootDefaultTheme.git",
+                "reference": "9954d0aa31680d1e9d8d25d429d3b7caf927690f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/7rin0/BigfootDefaultTheme/zipball/9954d0aa31680d1e9d8d25d429d3b7caf927690f",
+                "reference": "9954d0aa31680d1e9d8d25d429d3b7caf927690f",
+                "shasum": ""
+            },
+            "require": {
+                "7rin0/bigfoot-core-bundle": "~4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Bigfoot\\Theme\\DefaultThemeBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume Manen",
+                    "email": "g.manen@c2is.fr"
+                },
+                {
+                    "name": "Luis SEVERINO",
+                    "email": "lfs.severino@gmail.com"
+                }
+            ],
+            "description": "Bigfoot Default Theme bundle",
+            "time": "2016-01-26 01:27:10"
+        },
+        {
+            "name": "7rin0/bigfoot-media-bundle",
+            "version": "dev-master",
+            "target-dir": "Bigfoot/Bundle/MediaBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/7rin0/BigfootMediaBundle.git",
+                "reference": "e6dacc9eedf5aae126d8f4163edfcfa39f033b28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/7rin0/BigfootMediaBundle/zipball/e6dacc9eedf5aae126d8f4163edfcfa39f033b28",
+                "reference": "e6dacc9eedf5aae126d8f4163edfcfa39f033b28",
+                "shasum": ""
+            },
+            "require": {
+                "7rin0/bigfoot-core-bundle": "~4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Bigfoot\\Bundle\\MediaBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume Manen",
+                    "email": "g.manen@c2is.fr"
+                },
+                {
+                    "name": "Luis SEVERINO",
+                    "email": "lfs.severino@gmail.com"
+                }
+            ],
+            "description": "Bigfoot media bundle",
+            "time": "2016-01-26 01:15:11"
         },
         {
             "name": "7rin0/bigfoot-navigation-bundle",
@@ -4003,7 +4095,9 @@
         "7rin0/bigfoot-core-bundle": 20,
         "7rin0/bigfoot-context-bundle": 20,
         "7rin0/bigfoot-navigation-bundle": 20,
-        "7rin0/bigfoot-user-bundle": 20
+        "7rin0/bigfoot-user-bundle": 20,
+        "7rin0/bigfoot-media-bundle": 20,
+        "7rin0/bigfoot-default-theme": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
