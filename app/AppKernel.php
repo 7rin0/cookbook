@@ -38,7 +38,7 @@ class AppKernel extends Kernel
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new JMS\TwigJsBundle\JMSTwigJsBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
-            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
+//            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
             new JMS\TranslationBundle\JMSTranslationBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
             new Presta\SitemapBundle\PrestaSitemapBundle(),

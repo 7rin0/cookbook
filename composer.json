@@ -60,7 +60,9 @@
         "7rin0/bigfoot-user-bundle": "@dev",
         "7rin0/bigfoot-media-bundle": "@dev",
         "7rin0/bigfoot-default-theme": "@dev",
-        "7rin0/bigfoot-content-bundle": "@dev"
+        "7rin0/bigfoot-content-bundle": "@dev",
+        "besimple/i18n-routing-bundle": "@dev",
+        "jms/twig-js-bundle": "@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
