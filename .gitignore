@@ -42,7 +42,7 @@
 # Ignore BigfootBundle for now
 /src/*
 /web/assetic/*
-/web/js/bigfoot/*
+/web/js/bigfoot*
 /web/admin/*
 
 # Ignore sqlite database
