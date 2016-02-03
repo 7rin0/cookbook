@@ -43,6 +43,7 @@
 /src/*
 /web/assetic/*
 /web/js/bigfoot/*
+/web/admin/*
 
 # Ignore sqlite database
 *.sqlite
