@@ -4,9 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8cc848e1689484075e563ec6117baf5a",
-    "content-hash": "c40c14abbeb8c076dd9850eab98c682c",
+    "hash": "e8b76af73d244dd30809c6b28c4dacf6",
+    "content-hash": "8816c9385a74ccd8a63f4de16db198d1",
     "packages": [
+        {
+            "name": "7rin0/bigfoot-content-bundle",
+            "version": "dev-master",
+            "target-dir": "Bigfoot/Bundle/ContentBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/7rin0/BigfootContentBundle.git",
+                "reference": "9c18c8b0cb1460cb6f3a10c65071b699e691edd4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/7rin0/BigfootContentBundle/zipball/9c18c8b0cb1460cb6f3a10c65071b699e691edd4",
+                "reference": "9c18c8b0cb1460cb6f3a10c65071b699e691edd4",
+                "shasum": ""
+            },
+            "require": {
+                "7rin0/bigfoot-core-bundle": "~4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Bigfoot\\Bundle\\ContentBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillaume Manen",
+                    "email": "g.manen@c2is.fr"
+                },
+                {
+                    "name": "Yehya Latti",
+                    "email": "y.latti@c2is.fr"
+                },
+                {
+                    "name": "Sébastien Huot",
+                    "email": "s.huot@c2is.fr"
+                },
+                {
+                    "name": "Luis SEVERINO",
+                    "email": "lfs.severino@gmail.com"
+                }
+            ],
+            "description": "Bigfoot Content bundle",
+            "time": "2016-02-03 00:07:06"
+        },
         {
             "name": "7rin0/bigfoot-context-bundle",
             "version": "dev-master",
@@ -4097,7 +4151,8 @@
         "7rin0/bigfoot-navigation-bundle": 20,
         "7rin0/bigfoot-user-bundle": 20,
         "7rin0/bigfoot-media-bundle": 20,
-        "7rin0/bigfoot-default-theme": 20
+        "7rin0/bigfoot-default-theme": 20,
+        "7rin0/bigfoot-content-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

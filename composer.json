@@ -1,5 +1,5 @@
 {
-    "name": "lseverino/sf3",
+    "name": "7rin0/sf3",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -18,11 +18,11 @@
     },
     "repositories": [
       {
-        "type": "vcs",
+        "type": "git",
         "url": "https://github.com/7rin0/BeSimpleI18nRoutingBundle.git"
       },
       {
-        "type": "vcs",
+        "type": "git",
         "url": "https://github.com/7rin0/JMSTwigJsBundle.git"
       }
     ],
@@ -59,7 +59,8 @@
         "7rin0/bigfoot-navigation-bundle": "@dev",
         "7rin0/bigfoot-user-bundle": "@dev",
         "7rin0/bigfoot-media-bundle": "@dev",
-        "7rin0/bigfoot-default-theme": "@dev"
+        "7rin0/bigfoot-default-theme": "@dev",
+        "7rin0/bigfoot-content-bundle": "@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
