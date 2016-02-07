@@ -43,3 +43,9 @@ docker_build:
 
 run_server:
 	php bin/console server:start 127.0.0.1:7080 --force
+
+bigfoot_theme_install:
+	php bin/console assets:install -e=admin
+	php bin/console bigfoot:assets:install
+	php bin/console bigfoot:theme:install
+	php bin/console assetic:dump -e=admin
