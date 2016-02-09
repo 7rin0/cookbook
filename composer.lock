@@ -14,12 +14,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/7rin0/BigfootContentBundle.git",
-                "reference": "9c18c8b0cb1460cb6f3a10c65071b699e691edd4"
+                "reference": "ff793f04d824d0533d6dbceed27d74a742594a6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/7rin0/BigfootContentBundle/zipball/9c18c8b0cb1460cb6f3a10c65071b699e691edd4",
-                "reference": "9c18c8b0cb1460cb6f3a10c65071b699e691edd4",
+                "url": "https://api.github.com/repos/7rin0/BigfootContentBundle/zipball/ff793f04d824d0533d6dbceed27d74a742594a6d",
+                "reference": "ff793f04d824d0533d6dbceed27d74a742594a6d",
                 "shasum": ""
             },
             "require": {
@@ -59,7 +59,7 @@
                 }
             ],
             "description": "Bigfoot Content bundle",
-            "time": "2016-02-03 00:07:06"
+            "time": "2016-02-09 00:12:11"
         },
         {
             "name": "7rin0/bigfoot-context-bundle",
@@ -114,12 +114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/7rin0/BigfootCoreBundle.git",
-                "reference": "d00518b20d0e46c6fd5619141dc27dc61162efcb"
+                "reference": "be10afb545ef3c530a8442229ea27482d4e6566b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/7rin0/BigfootCoreBundle/zipball/d00518b20d0e46c6fd5619141dc27dc61162efcb",
-                "reference": "d00518b20d0e46c6fd5619141dc27dc61162efcb",
+                "url": "https://api.github.com/repos/7rin0/BigfootCoreBundle/zipball/be10afb545ef3c530a8442229ea27482d4e6566b",
+                "reference": "be10afb545ef3c530a8442229ea27482d4e6566b",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,7 @@
                 }
             ],
             "description": "Bigfoot core bundle",
-            "time": "2016-02-01 22:09:36"
+            "time": "2016-02-09 00:10:56"
         },
         {
             "name": "7rin0/bigfoot-default-theme",
@@ -166,12 +166,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/7rin0/BigfootDefaultTheme.git",
-                "reference": "5dfc6bcc22b9bc3bed2ee91dfc2b7143d18bf9ba"
+                "reference": "bd056a24aaa4f6170d02bc7b0573c6273ac1be29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/7rin0/BigfootDefaultTheme/zipball/5dfc6bcc22b9bc3bed2ee91dfc2b7143d18bf9ba",
-                "reference": "5dfc6bcc22b9bc3bed2ee91dfc2b7143d18bf9ba",
+                "url": "https://api.github.com/repos/7rin0/BigfootDefaultTheme/zipball/bd056a24aaa4f6170d02bc7b0573c6273ac1be29",
+                "reference": "bd056a24aaa4f6170d02bc7b0573c6273ac1be29",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 }
             ],
             "description": "Bigfoot Default Theme bundle",
-            "time": "2016-02-08 22:16:20"
+            "time": "2016-02-09 00:14:22"
         },
         {
             "name": "7rin0/bigfoot-media-bundle",
@@ -212,12 +212,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/7rin0/BigfootMediaBundle.git",
-                "reference": "e6dacc9eedf5aae126d8f4163edfcfa39f033b28"
+                "reference": "7be4f4163cb0340955c39927e155190c95ea5902"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/7rin0/BigfootMediaBundle/zipball/e6dacc9eedf5aae126d8f4163edfcfa39f033b28",
-                "reference": "e6dacc9eedf5aae126d8f4163edfcfa39f033b28",
+                "url": "https://api.github.com/repos/7rin0/BigfootMediaBundle/zipball/7be4f4163cb0340955c39927e155190c95ea5902",
+                "reference": "7be4f4163cb0340955c39927e155190c95ea5902",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 }
             ],
             "description": "Bigfoot media bundle",
-            "time": "2016-01-26 01:15:11"
+            "time": "2016-02-09 00:18:52"
         },
         {
             "name": "7rin0/bigfoot-navigation-bundle",
