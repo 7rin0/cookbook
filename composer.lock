@@ -1449,16 +1449,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.12",
+            "version": "v2.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "2527d8f93779458e097447b5f92132bc65e672f4"
+                "reference": "5f4b6c848f0d6834a434a62a09a0935d147082e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/2527d8f93779458e097447b5f92132bc65e672f4",
-                "reference": "2527d8f93779458e097447b5f92132bc65e672f4",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/5f4b6c848f0d6834a434a62a09a0935d147082e1",
+                "reference": "5f4b6c848f0d6834a434a62a09a0935d147082e1",
                 "shasum": ""
             },
             "require": {
@@ -1524,7 +1524,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2016-01-28 10:00:33"
+            "time": "2016-02-18 15:33:43"
         },
         {
             "name": "imagine/imagine",
@@ -1636,16 +1636,16 @@
         },
         {
             "name": "javiereguiluz/easyadmin-bundle",
-            "version": "v1.11.4",
+            "version": "v1.11.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/javiereguiluz/EasyAdminBundle.git",
-                "reference": "4ebbbb2d5e26e5ef8adbf120b5a9e1f63617abea"
+                "reference": "306690d67aa9f7abfb59118d478ed77a3a2ede2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/4ebbbb2d5e26e5ef8adbf120b5a9e1f63617abea",
-                "reference": "4ebbbb2d5e26e5ef8adbf120b5a9e1f63617abea",
+                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/306690d67aa9f7abfb59118d478ed77a3a2ede2a",
+                "reference": "306690d67aa9f7abfb59118d478ed77a3a2ede2a",
                 "shasum": ""
             },
             "require": {
@@ -1711,7 +1711,7 @@
                 "backend",
                 "generator"
             ],
-            "time": "2016-02-05 14:45:14"
+            "time": "2016-02-16 18:59:47"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -2539,16 +2539,16 @@
         },
         {
             "name": "liip/imagine-bundle",
-            "version": "1.4.3",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "22d625e92337c1c25338922dc08706182be9b02f"
+                "reference": "3be0322e0007b54dbffd5a96faf1c11f6f91cf46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/22d625e92337c1c25338922dc08706182be9b02f",
-                "reference": "22d625e92337c1c25338922dc08706182be9b02f",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/3be0322e0007b54dbffd5a96faf1c11f6f91cf46",
+                "reference": "3be0322e0007b54dbffd5a96faf1c11f6f91cf46",
                 "shasum": ""
             },
             "require": {
@@ -2609,7 +2609,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2016-01-14 07:16:25"
+            "time": "2016-02-16 19:35:14"
         },
         {
             "name": "monolog/monolog",
@@ -3049,16 +3049,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.3",
+            "version": "v5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "419c1824af940e2be0f833aca2327e1181a6b503"
+                "reference": "2c167426fc24f9de116345195bc1697a748ee847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/419c1824af940e2be0f833aca2327e1181a6b503",
-                "reference": "419c1824af940e2be0f833aca2327e1181a6b503",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/2c167426fc24f9de116345195bc1697a748ee847",
+                "reference": "2c167426fc24f9de116345195bc1697a748ee847",
                 "shasum": ""
             },
             "require": {
@@ -3097,7 +3097,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-12-18 17:44:11"
+            "time": "2016-02-12 16:21:30"
         },
         {
             "name": "sensio/framework-extra-bundle",
