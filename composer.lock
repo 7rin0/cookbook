@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craue/CraueFormFlowBundle.git",
-                "reference": "bf0c14e099bde4a392b26be293383b8277e9b9b0"
+                "reference": "8aecaf663fc5061c181b46fe552763b709ac7867"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/bf0c14e099bde4a392b26be293383b8277e9b9b0",
-                "reference": "bf0c14e099bde4a392b26be293383b8277e9b9b0",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/8aecaf663fc5061c181b46fe552763b709ac7867",
+                "reference": "8aecaf663fc5061c181b46fe552763b709ac7867",
                 "shasum": ""
             },
             "require": {
@@ -506,7 +506,7 @@
                 "symfony3",
                 "wizard"
             ],
-            "time": "2016-02-23 08:44:14"
+            "time": "2016-02-26 10:38:04"
         },
         {
             "name": "doctrine/annotations",
@@ -1636,16 +1636,16 @@
         },
         {
             "name": "javiereguiluz/easyadmin-bundle",
-            "version": "v1.11.5",
+            "version": "v1.11.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/javiereguiluz/EasyAdminBundle.git",
-                "reference": "306690d67aa9f7abfb59118d478ed77a3a2ede2a"
+                "reference": "83c48ce33dd84dd3613976c3652344fc23c29cbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/306690d67aa9f7abfb59118d478ed77a3a2ede2a",
-                "reference": "306690d67aa9f7abfb59118d478ed77a3a2ede2a",
+                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/83c48ce33dd84dd3613976c3652344fc23c29cbf",
+                "reference": "83c48ce33dd84dd3613976c3652344fc23c29cbf",
                 "shasum": ""
             },
             "require": {
@@ -1711,7 +1711,7 @@
                 "backend",
                 "generator"
             ],
-            "time": "2016-02-16 18:59:47"
+            "time": "2016-02-26 17:05:31"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -4183,16 +4183,16 @@
     "packages-dev": [
         {
             "name": "sensio/generator-bundle",
-            "version": "v3.0.5",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "5274eafa251359087230bade2ff35dd6cec2e530"
+                "reference": "ac91535054d025937d897d78ebb5fc2da5e955a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/5274eafa251359087230bade2ff35dd6cec2e530",
-                "reference": "5274eafa251359087230bade2ff35dd6cec2e530",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/ac91535054d025937d897d78ebb5fc2da5e955a4",
+                "reference": "ac91535054d025937d897d78ebb5fc2da5e955a4",
                 "shasum": ""
             },
             "require": {
@@ -4231,7 +4231,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2016-01-05 16:30:36"
+            "time": "2016-02-26 04:36:01"
         },
         {
             "name": "symfony/phpunit-bridge",
