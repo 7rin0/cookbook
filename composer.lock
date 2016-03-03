@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craue/CraueFormFlowBundle.git",
-                "reference": "971f337ccc23ab6bbfc9f04c0332eb36390e918e"
+                "reference": "41a0f99811279ccba691186a72635cf3a20eb168"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/971f337ccc23ab6bbfc9f04c0332eb36390e918e",
-                "reference": "971f337ccc23ab6bbfc9f04c0332eb36390e918e",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/41a0f99811279ccba691186a72635cf3a20eb168",
+                "reference": "41a0f99811279ccba691186a72635cf3a20eb168",
                 "shasum": ""
             },
             "require": {
@@ -505,7 +505,7 @@
                 "symfony3",
                 "wizard"
             ],
-            "time": "2016-03-01 08:59:44"
+            "time": "2016-03-03 19:34:32"
         },
         {
             "name": "doctrine/annotations",
