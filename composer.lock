@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craue/CraueFormFlowBundle.git",
-                "reference": "533d5dd277d3fac885d515f8f5c153cb56321cc8"
+                "reference": "ec806d3b0076b6b9b846cf7cacb628f53a7a3e0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/533d5dd277d3fac885d515f8f5c153cb56321cc8",
-                "reference": "533d5dd277d3fac885d515f8f5c153cb56321cc8",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/ec806d3b0076b6b9b846cf7cacb628f53a7a3e0a",
+                "reference": "ec806d3b0076b6b9b846cf7cacb628f53a7a3e0a",
                 "shasum": ""
             },
             "require": {
@@ -505,7 +505,7 @@
                 "symfony3",
                 "wizard"
             ],
-            "time": "2016-03-17 14:15:29"
+            "time": "2016-03-18 10:29:22"
         },
         {
             "name": "doctrine/annotations",
@@ -2802,16 +2802,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v1.3.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "ff76e1a660669bb56ba74ba0583fd8d41417bf39"
+                "reference": "c7e26a21ba357863de030f0b9e701c7d04593774"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/ff76e1a660669bb56ba74ba0583fd8d41417bf39",
-                "reference": "ff76e1a660669bb56ba74ba0583fd8d41417bf39",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c7e26a21ba357863de030f0b9e701c7d04593774",
+                "reference": "c7e26a21ba357863de030f0b9e701c7d04593774",
                 "shasum": ""
             },
             "require": {
@@ -2846,7 +2846,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-03-17 16:11:57"
+            "time": "2016-03-18 20:34:03"
         },
         {
             "name": "phpcollection/phpcollection",
