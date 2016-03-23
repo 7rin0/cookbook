@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craue/CraueFormFlowBundle.git",
-                "reference": "ec806d3b0076b6b9b846cf7cacb628f53a7a3e0a"
+                "reference": "8e389f4fd2e5a49f2434df2df85893a51a7fa966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/ec806d3b0076b6b9b846cf7cacb628f53a7a3e0a",
-                "reference": "ec806d3b0076b6b9b846cf7cacb628f53a7a3e0a",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/8e389f4fd2e5a49f2434df2df85893a51a7fa966",
+                "reference": "8e389f4fd2e5a49f2434df2df85893a51a7fa966",
                 "shasum": ""
             },
             "require": {
@@ -505,7 +505,7 @@
                 "symfony3",
                 "wizard"
             ],
-            "time": "2016-03-18 10:29:22"
+            "time": "2016-03-23 11:49:05"
         },
         {
             "name": "doctrine/annotations",
@@ -1635,16 +1635,16 @@
         },
         {
             "name": "javiereguiluz/easyadmin-bundle",
-            "version": "v1.12.0",
+            "version": "v1.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/javiereguiluz/EasyAdminBundle.git",
-                "reference": "66f5acf637c8eefd391abe9ecda424c17eaf79d7"
+                "reference": "b7908a62ff27952e5058857077e1cf69205a3bf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/66f5acf637c8eefd391abe9ecda424c17eaf79d7",
-                "reference": "66f5acf637c8eefd391abe9ecda424c17eaf79d7",
+                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/b7908a62ff27952e5058857077e1cf69205a3bf1",
+                "reference": "b7908a62ff27952e5058857077e1cf69205a3bf1",
                 "shasum": ""
             },
             "require": {
@@ -1710,7 +1710,7 @@
                 "backend",
                 "generator"
             ],
-            "time": "2016-03-15 19:40:33"
+            "time": "2016-03-23 13:59:10"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -2056,41 +2056,34 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSTranslationBundle.git",
-                "reference": "c97c57151ce0283d89a1bea8dbdb15b222052135"
+                "reference": "f09499f3f0e4d98313fb54f089b464855236ce17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/c97c57151ce0283d89a1bea8dbdb15b222052135",
-                "reference": "c97c57151ce0283d89a1bea8dbdb15b222052135",
+                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/f09499f3f0e4d98313fb54f089b464855236ce17",
+                "reference": "f09499f3f0e4d98313fb54f089b464855236ce17",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "~1.4.1",
-                "symfony/console": "*",
-                "symfony/framework-bundle": "~2.1|~3.0"
+                "php": "^5.3.3|^7.0",
+                "symfony/console": "^2.3|^3.0",
+                "symfony/framework-bundle": "^2.3|^3.0"
             },
             "conflict": {
                 "twig/twig": "<1.12"
             },
             "require-dev": {
-                "jms/di-extra-bundle": ">=1.1",
-                "sensio/framework-extra-bundle": "*",
-                "symfony/browser-kit": "*",
-                "symfony/class-loader": "*",
-                "symfony/css-selector": "*",
+                "jms/di-extra-bundle": "^1.1",
+                "sensio/framework-extra-bundle": "^2.3|^3.0",
                 "symfony/expression-language": "~2.6|~3.0",
-                "symfony/finder": "*",
-                "symfony/form": "*",
-                "symfony/process": "*",
-                "symfony/security": "*",
-                "symfony/twig-bundle": "*",
-                "symfony/validator": "*",
-                "symfony/yaml": "*"
+                "symfony/symfony": "^2.3|^3.0",
+                "twig/twig": "^1.12"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -2120,7 +2113,7 @@
                 "ui",
                 "webinterface"
             ],
-            "time": "2015-12-11 13:04:17"
+            "time": "2016-03-23 18:44:57"
         },
         {
             "name": "jms/twig-js",
@@ -3101,16 +3094,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.14",
+            "version": "v3.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "cccf975c565ccd835bddc30a8fea5cdfe3357bf1"
+                "reference": "40431d338da7ab4ef5f9edc1ba4551ea1d4d0782"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/cccf975c565ccd835bddc30a8fea5cdfe3357bf1",
-                "reference": "cccf975c565ccd835bddc30a8fea5cdfe3357bf1",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/40431d338da7ab4ef5f9edc1ba4551ea1d4d0782",
+                "reference": "40431d338da7ab4ef5f9edc1ba4551ea1d4d0782",
                 "shasum": ""
             },
             "require": {
@@ -3159,7 +3152,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2016-03-01 10:50:07"
+            "time": "2016-03-22 12:39:08"
         },
         {
             "name": "sensiolabs/security-checker",
