@@ -449,12 +449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craue/CraueFormFlowBundle.git",
-                "reference": "8e389f4fd2e5a49f2434df2df85893a51a7fa966"
+                "reference": "8819fdf53f9ac114a4f83f3118a073168cdf29e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/8e389f4fd2e5a49f2434df2df85893a51a7fa966",
-                "reference": "8e389f4fd2e5a49f2434df2df85893a51a7fa966",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/8819fdf53f9ac114a4f83f3118a073168cdf29e1",
+                "reference": "8819fdf53f9ac114a4f83f3118a073168cdf29e1",
                 "shasum": ""
             },
             "require": {
@@ -505,7 +505,7 @@
                 "symfony3",
                 "wizard"
             ],
-            "time": "2016-03-23 11:49:05"
+            "time": "2016-03-24 09:08:11"
         },
         {
             "name": "doctrine/annotations",
@@ -1635,16 +1635,16 @@
         },
         {
             "name": "javiereguiluz/easyadmin-bundle",
-            "version": "v1.12.3",
+            "version": "v1.12.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/javiereguiluz/EasyAdminBundle.git",
-                "reference": "b7908a62ff27952e5058857077e1cf69205a3bf1"
+                "reference": "6e4e17536500b8abbf1dd19a9feaf3f1179bfa6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/b7908a62ff27952e5058857077e1cf69205a3bf1",
-                "reference": "b7908a62ff27952e5058857077e1cf69205a3bf1",
+                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/6e4e17536500b8abbf1dd19a9feaf3f1179bfa6d",
+                "reference": "6e4e17536500b8abbf1dd19a9feaf3f1179bfa6d",
                 "shasum": ""
             },
             "require": {
@@ -1710,7 +1710,7 @@
                 "backend",
                 "generator"
             ],
-            "time": "2016-03-23 13:59:10"
+            "time": "2016-03-24 15:46:38"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -2056,16 +2056,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSTranslationBundle.git",
-                "reference": "f09499f3f0e4d98313fb54f089b464855236ce17"
+                "reference": "7c3ce1e75749e8db8289788df026a53e8512357f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/f09499f3f0e4d98313fb54f089b464855236ce17",
-                "reference": "f09499f3f0e4d98313fb54f089b464855236ce17",
+                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/7c3ce1e75749e8db8289788df026a53e8512357f",
+                "reference": "7c3ce1e75749e8db8289788df026a53e8512357f",
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "~1.4.1",
+                "nikic/php-parser": "^1.4|^2.0",
                 "php": "^5.3.3|^7.0",
                 "symfony/console": "^2.3|^3.0",
                 "symfony/framework-bundle": "^2.3|^3.0"
@@ -2113,7 +2113,7 @@
                 "ui",
                 "webinterface"
             ],
-            "time": "2016-03-23 18:44:57"
+            "time": "2016-03-24 19:36:17"
         },
         {
             "name": "jms/twig-js",
@@ -2683,32 +2683,38 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v1.4.1",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51"
+                "reference": "ce5be709d59b32dd8a88c80259028759991a4206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
-                "reference": "f78af2c9c86107aa1a34cd1dbb5bbe9eeb0d9f51",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ce5be709d59b32dd8a88c80259028759991a4206",
+                "reference": "ce5be709d59b32dd8a88c80259028759991a4206",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=5.3"
+                "php": ">=5.4"
             },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "bin/php-parse"
+            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "lib/bootstrap.php"
-                ]
+                "psr-4": {
+                    "PhpParser\\": "lib/PhpParser"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2724,7 +2730,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2015-09-19 14:15:08"
+            "time": "2016-02-28 19:48:28"
         },
         {
             "name": "pagerfanta/pagerfanta",
@@ -3094,16 +3100,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.15",
+            "version": "v3.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "40431d338da7ab4ef5f9edc1ba4551ea1d4d0782"
+                "reference": "507a15f56fa7699f6cc8c2c7de4080b19ce22546"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/40431d338da7ab4ef5f9edc1ba4551ea1d4d0782",
-                "reference": "40431d338da7ab4ef5f9edc1ba4551ea1d4d0782",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/507a15f56fa7699f6cc8c2c7de4080b19ce22546",
+                "reference": "507a15f56fa7699f6cc8c2c7de4080b19ce22546",
                 "shasum": ""
             },
             "require": {
@@ -3152,7 +3158,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2016-03-22 12:39:08"
+            "time": "2016-03-25 17:08:27"
         },
         {
             "name": "sensiolabs/security-checker",
