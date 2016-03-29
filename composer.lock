@@ -2056,12 +2056,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSTranslationBundle.git",
-                "reference": "7c3ce1e75749e8db8289788df026a53e8512357f"
+                "reference": "2f170506c60962fe7a33e2a3b90cea470676f229"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/7c3ce1e75749e8db8289788df026a53e8512357f",
-                "reference": "7c3ce1e75749e8db8289788df026a53e8512357f",
+                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/2f170506c60962fe7a33e2a3b90cea470676f229",
+                "reference": "2f170506c60962fe7a33e2a3b90cea470676f229",
                 "shasum": ""
             },
             "require": {
@@ -2075,6 +2075,8 @@
             },
             "require-dev": {
                 "jms/di-extra-bundle": "^1.1",
+                "matthiasnoback/symfony-dependency-injection-test": "^0.7.6",
+                "psr/log": "^1.0",
                 "sensio/framework-extra-bundle": "^2.3|^3.0",
                 "symfony/expression-language": "~2.6|~3.0",
                 "symfony/symfony": "^2.3|^3.0",
@@ -2113,7 +2115,7 @@
                 "ui",
                 "webinterface"
             ],
-            "time": "2016-03-24 19:36:17"
+            "time": "2016-03-29 15:15:54"
         },
         {
             "name": "jms/twig-js",
