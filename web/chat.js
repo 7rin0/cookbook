@@ -21,6 +21,7 @@ window.onload = function() {
 
     sendButton.onclick = function() {
         var text = field.value;
+        console.log(field);
         socket.emit('send', { message: text });
     };
 
