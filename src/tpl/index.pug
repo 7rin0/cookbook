@@ -1,9 +1,9 @@
 doctype html
 html(lang="en")
   head
-    title= pageTitle
-    script(type='text/javascript').
-      if (foo) bar(1 + 5)
+    title= "Real time web chat"
+    script(src='/chat.js')
+    script(src='/socket.io/socket.io.js')
   body
     h1 Pug - node template engine
     #container.col
