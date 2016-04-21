@@ -1393,12 +1393,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git",
-                "reference": "9be3747c10dd4ffafc86c5c0ade035c7fe1efce4"
+                "reference": "90dcbf52dae73c3cb36965ee05e7cd04e53b5b6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/9be3747c10dd4ffafc86c5c0ade035c7fe1efce4",
-                "reference": "9be3747c10dd4ffafc86c5c0ade035c7fe1efce4",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSJsRoutingBundle/zipball/90dcbf52dae73c3cb36965ee05e7cd04e53b5b6f",
+                "reference": "90dcbf52dae73c3cb36965ee05e7cd04e53b5b6f",
                 "shasum": ""
             },
             "require": {
@@ -1444,7 +1444,7 @@
                 "javascript",
                 "routing"
             ],
-            "time": "2016-04-13 09:40:48"
+            "time": "2016-04-21 13:20:58"
         },
         {
             "name": "gedmo/doctrine-extensions",
