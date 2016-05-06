@@ -2533,16 +2533,16 @@
         },
         {
             "name": "liip/imagine-bundle",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "3be0322e0007b54dbffd5a96faf1c11f6f91cf46"
+                "reference": "b657b6601a24da525645fb5358ce77fdf57889f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/3be0322e0007b54dbffd5a96faf1c11f6f91cf46",
-                "reference": "3be0322e0007b54dbffd5a96faf1c11f6f91cf46",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/b657b6601a24da525645fb5358ce77fdf57889f1",
+                "reference": "b657b6601a24da525645fb5358ce77fdf57889f1",
                 "shasum": ""
             },
             "require": {
@@ -2603,7 +2603,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2016-02-16 19:35:14"
+            "time": "2016-05-06 06:27:38"
         },
         {
             "name": "monolog/monolog",
