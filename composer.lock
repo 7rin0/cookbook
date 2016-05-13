@@ -1635,19 +1635,20 @@
         },
         {
             "name": "javiereguiluz/easyadmin-bundle",
-            "version": "v1.12.7",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/javiereguiluz/EasyAdminBundle.git",
-                "reference": "e19d9d808b828117c7d7c93ef50ea6e6a9f9160e"
+                "reference": "e3bf2105e60f8fad6cf9beee0879503a81666606"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/4ebb10ee3980c9fbfc00f6b4c399cd67efd18407",
-                "reference": "e19d9d808b828117c7d7c93ef50ea6e6a9f9160e",
+                "url": "https://api.github.com/repos/javiereguiluz/EasyAdminBundle/zipball/e3bf2105e60f8fad6cf9beee0879503a81666606",
+                "reference": "e3bf2105e60f8fad6cf9beee0879503a81666606",
                 "shasum": ""
             },
             "require": {
+                "doctrine/cache": "~1.5",
                 "doctrine/common": "^2.4.0",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "~2.3",
@@ -1687,7 +1688,10 @@
             "autoload": {
                 "psr-4": {
                     "JavierEguiluz\\Bundle\\EasyAdminBundle\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1710,7 +1714,7 @@
                 "backend",
                 "generator"
             ],
-            "time": "2016-04-24 18:54:26"
+            "time": "2016-05-11 17:22:05"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -2056,12 +2060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSTranslationBundle.git",
-                "reference": "d0d6c7f002e4210217b5f7271a438309d305540a"
+                "reference": "d48c0dce3422666b7816113c33c7320724c9c666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/d0d6c7f002e4210217b5f7271a438309d305540a",
-                "reference": "d0d6c7f002e4210217b5f7271a438309d305540a",
+                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/d48c0dce3422666b7816113c33c7320724c9c666",
+                "reference": "d48c0dce3422666b7816113c33c7320724c9c666",
                 "shasum": ""
             },
             "require": {
@@ -2115,7 +2119,7 @@
                 "ui",
                 "webinterface"
             ],
-            "time": "2016-05-08 03:48:49"
+            "time": "2016-05-13 05:39:39"
         },
         {
             "name": "jms/twig-js",
