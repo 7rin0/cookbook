@@ -2959,16 +2959,16 @@
         },
         {
             "name": "presta/sitemap-bundle",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/prestaconcept/PrestaSitemapBundle.git",
-                "reference": "f6286d4e2bc19015bc77288f5cf944e0777f1932"
+                "reference": "33f26ab0be02515e5ee3b634e3dc08442541884e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/prestaconcept/PrestaSitemapBundle/zipball/f6286d4e2bc19015bc77288f5cf944e0777f1932",
-                "reference": "f6286d4e2bc19015bc77288f5cf944e0777f1932",
+                "url": "https://api.github.com/repos/prestaconcept/PrestaSitemapBundle/zipball/33f26ab0be02515e5ee3b634e3dc08442541884e",
+                "reference": "33f26ab0be02515e5ee3b634e3dc08442541884e",
                 "shasum": ""
             },
             "require": {
@@ -3016,7 +3016,7 @@
                 "prestaconcept",
                 "xml"
             ],
-            "time": "2016-06-08 15:43:17"
+            "time": "2016-06-15 07:35:16"
         },
         {
             "name": "psr/log",
