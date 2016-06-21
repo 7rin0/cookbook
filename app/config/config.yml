@@ -157,9 +157,9 @@ bazinga_js_translation:
     http_cache_time:  700
 
 # Sitemap
-presta_sitemap:
-    timetolive: 3600
-    dumper_base_url: "www.sf3.com"
+#presta_sitemap:
+#    timetolive: 3600
+#    dumper_base_url: "www.sf3.com"
 
 # Twig Extension
 services:

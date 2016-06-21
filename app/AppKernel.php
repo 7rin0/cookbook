@@ -41,7 +41,7 @@ class AppKernel extends Kernel
 //            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
             new JMS\TranslationBundle\JMSTranslationBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
-            new Presta\SitemapBundle\PrestaSitemapBundle(),
+            #new Presta\SitemapBundle\PrestaSitemapBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
 
