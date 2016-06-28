@@ -2061,12 +2061,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSTranslationBundle.git",
-                "reference": "0766b688ab5219775d5a2a8a1cfaccac564c4eae"
+                "reference": "f5adfcc617823ea18f2a2cc40f153331db1287bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/0766b688ab5219775d5a2a8a1cfaccac564c4eae",
-                "reference": "0766b688ab5219775d5a2a8a1cfaccac564c4eae",
+                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/f5adfcc617823ea18f2a2cc40f153331db1287bb",
+                "reference": "f5adfcc617823ea18f2a2cc40f153331db1287bb",
                 "shasum": ""
             },
             "require": {
@@ -2120,7 +2120,7 @@
                 "ui",
                 "webinterface"
             ],
-            "time": "2016-06-24 16:10:03"
+            "time": "2016-06-28 19:59:49"
         },
         {
             "name": "jms/twig-js",
