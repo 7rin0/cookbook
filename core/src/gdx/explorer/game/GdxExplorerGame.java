@@ -9,6 +9,7 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.math.Vector3;
 
 public class GdxExplorerGame extends ApplicationAdapter {
 	Texture img;
@@ -55,12 +56,21 @@ public class GdxExplorerGame extends ApplicationAdapter {
 
 	@Override
 	public void render () {
+		// draw the bucket
 		Gdx.gl.glClearColor(0, 0, 0.2f, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.setProjectionMatrix(camera.combined);
 		batch.begin();
 		batch.draw(bucketImage, bucket.x, bucket.y);
 		batch.end();
+
+		// Making the Bucket Move (Mouse/Touch)
+		if (Gdx.input.isTouched()) {
+			Vector3 touchPos = new Vector3();
+			touchPos.set(Gdx.input.getX(), Gdx.input.getY(), 0);
+			camera.unproject(touchPos);
+			bucket.x = touchPos.x - 64 / 2;
+		}
 	}
 	
 	@Override
