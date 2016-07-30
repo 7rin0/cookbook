@@ -71,6 +71,14 @@ public class GdxExplorerGame extends ApplicationAdapter {
 			camera.unproject(touchPos);
 			bucket.x = touchPos.x - 64 / 2;
 		}
+
+		// Making the Bucket Move (Keyboard)
+		if(Gdx.input.isKeyPressed(Keys.LEFT)) bucket.x -= 200 * Gdx.graphics.getDeltaTime();
+		if(Gdx.input.isKeyPressed(Keys.RIGHT)) bucket.x += 200 * Gdx.graphics.getDeltaTime();
+
+		// We also need to make sure our bucket stays within the screen limits
+		if(bucket.x < 0) bucket.x = 0;
+		if(bucket.x > 800 - 64) bucket.x = 800 - 64;
 	}
 	
 	@Override
