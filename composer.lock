@@ -1449,16 +1449,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.19",
+            "version": "v2.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "a5a5ee1391fc9abadd0fd1524ca38569df72005f"
+                "reference": "24cd861d755282f4c9fb1c8f4634ffd6ca12182b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/a5a5ee1391fc9abadd0fd1524ca38569df72005f",
-                "reference": "a5a5ee1391fc9abadd0fd1524ca38569df72005f",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/24cd861d755282f4c9fb1c8f4634ffd6ca12182b",
+                "reference": "24cd861d755282f4c9fb1c8f4634ffd6ca12182b",
                 "shasum": ""
             },
             "require": {
@@ -1524,7 +1524,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2016-07-25 14:14:57"
+            "time": "2016-07-30 15:51:52"
         },
         {
             "name": "imagine/imagine",
@@ -3802,16 +3802,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.0.8",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "814b8cdd556bc833f56f5d488534e17eec369337"
+                "reference": "634fb8c018532c820debd2678e452a735b9f438e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/814b8cdd556bc833f56f5d488534e17eec369337",
-                "reference": "814b8cdd556bc833f56f5d488534e17eec369337",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/634fb8c018532c820debd2678e452a735b9f438e",
+                "reference": "634fb8c018532c820debd2678e452a735b9f438e",
                 "shasum": ""
             },
             "require": {
@@ -3928,7 +3928,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-06-30 16:30:29"
+            "time": "2016-07-30 09:10:53"
         },
         {
             "name": "twig/extensions",
@@ -4250,7 +4250,7 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.8",
+            "version": "v2.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
