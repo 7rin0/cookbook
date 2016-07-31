@@ -14,7 +14,6 @@ import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.TimeUtils;
-
 import java.util.Iterator;
 
 public class GdxExplorerGame extends ApplicationAdapter {
@@ -126,6 +125,19 @@ public class GdxExplorerGame extends ApplicationAdapter {
 		batch.dispose();
 	}
 
+	@Override
+	public void resize (int width, int height) {
+	}
+
+	@Override
+	public void pause () {
+	}
+
+	@Override
+	public void resume () {
+	}
+
+	// Non lifecycle methods
 	private void spawnRaindrop() {
 		Rectangle raindrop = new Rectangle();
 		raindrop.x = MathUtils.random(0, 800-64);
