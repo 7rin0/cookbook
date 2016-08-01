@@ -30,7 +30,13 @@ public class GdxExplorerGame extends ApplicationAdapter {
 	private Rectangle bucket;
 	private Array<Rectangle> raindrops;
 	private long lastDropTime;
-	
+
+	// Hero positions
+	private boolean up;
+	private boolean down;
+	private float position;
+	private float targetPosition;
+
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
@@ -99,8 +105,11 @@ public class GdxExplorerGame extends ApplicationAdapter {
 		}
 
 		// Making the Bucket Move (Keyboard)
-		if(Gdx.input.isKeyPressed(Keys.LEFT)) bucket.x -= 200 * Gdx.graphics.getDeltaTime();
-		if(Gdx.input.isKeyPressed(Keys.RIGHT)) bucket.x += 200 * Gdx.graphics.getDeltaTime();
+		if(Gdx.input.isKeyPressed(Keys.LEFT)) bucket.x -= 350 * Gdx.graphics.getDeltaTime();
+		if(Gdx.input.isKeyPressed(Keys.RIGHT)) bucket.x += 350 * Gdx.graphics.getDeltaTime();
+
+		// Make bucket move up
+		heroJump();
 
 		// We also need to make sure our bucket stays within the screen limits
 		if(bucket.x < 0) bucket.x = 0;
@@ -156,5 +165,35 @@ public class GdxExplorerGame extends ApplicationAdapter {
 		raindrop.height = 64;
 		raindrops.add(raindrop);
 		lastDropTime = TimeUtils.nanoTime();
+	}
+
+	// Make bucket jump
+	private void heroJump() {
+		if(
+			(
+                Gdx.input.isKeyPressed(Keys.SPACE) ||
+                Gdx.input.isKeyPressed(Keys.UP) ||
+                Gdx.input.justTouched()
+            ) &&
+			!up && !down
+		) {
+			up = true;
+			position = bucket.y;
+		}
+
+		// If jump was triggered
+		if(up) {
+			bucket.y += 350 * Gdx.graphics.getDeltaTime();
+			if (position + 200 <= bucket.y) {
+				up = false;
+				down = true;
+			}
+		} else if(down) {
+			bucket.y -= 450 * Gdx.graphics.getDeltaTime();
+			if (bucket.y <= 20) {
+				position = bucket.y = 20f;
+				up = down = false;
+			}
+		}
 	}
 }
