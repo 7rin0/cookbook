@@ -8,6 +8,7 @@ import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Rectangle;
@@ -20,6 +21,8 @@ public class GdxExplorerGame extends ApplicationAdapter {
 	Texture img;
 	private Texture dropImage;
 	private Texture bucketImage;
+	private Texture gameBackgroundTexture;
+	private Sprite gameBackgroundSprite;
 	private Sound dropSound;
 	private Music rainMusic;
 	private OrthographicCamera camera;
@@ -51,6 +54,10 @@ public class GdxExplorerGame extends ApplicationAdapter {
 		camera.setToOrtho(false, 800, 400);
 		batch = new SpriteBatch();
 
+		// Add game background
+		gameBackgroundTexture = new Texture(Gdx.files.internal("game_background.png"));
+		gameBackgroundSprite = new Sprite(gameBackgroundTexture);
+
 		// Set bucket dimensions
 		bucket = new Rectangle();
 		bucket.width = 64;
@@ -65,6 +72,7 @@ public class GdxExplorerGame extends ApplicationAdapter {
 
 	@Override
 	public void render () {
+
 		// draw the bucket
 		Gdx.gl.glClearColor(0, 0, 0.2f, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
@@ -73,7 +81,9 @@ public class GdxExplorerGame extends ApplicationAdapter {
 		camera.update();
 		batch.setProjectionMatrix(camera.combined);
 
+		// Draw background, drops and bucket here
 		batch.begin();
+		gameBackgroundSprite.draw(batch);
 		batch.draw(bucketImage, bucket.x, bucket.y);
 		for(Rectangle raindrop: raindrops) {
 			batch.draw(dropImage, raindrop.x, raindrop.y);
