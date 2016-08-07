@@ -2062,19 +2062,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSTranslationBundle.git",
-                "reference": "537f4cc10c65e670f09b5059335aa5479bbf7503"
+                "reference": "8c2fd74b82f24a6f889e3bbf82d18aa4171e8168"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/537f4cc10c65e670f09b5059335aa5479bbf7503",
-                "reference": "537f4cc10c65e670f09b5059335aa5479bbf7503",
+                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/8c2fd74b82f24a6f889e3bbf82d18aa4171e8168",
+                "reference": "8c2fd74b82f24a6f889e3bbf82d18aa4171e8168",
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^1.4|^2.0",
-                "php": "^5.3.3|^7.0",
-                "symfony/console": "^2.3|^3.0",
-                "symfony/framework-bundle": "^2.3|^3.0"
+                "nikic/php-parser": "^1.4 || ^2.0",
+                "php": "^5.3.3 || ^7.0",
+                "symfony/console": "^2.3 || ^3.0",
+                "symfony/framework-bundle": "^2.3 || ^3.0"
             },
             "conflict": {
                 "twig/twig": "<1.12"
@@ -2083,15 +2083,15 @@
                 "jms/di-extra-bundle": "^1.1",
                 "matthiasnoback/symfony-dependency-injection-test": "^0.7.6",
                 "psr/log": "^1.0",
-                "sensio/framework-extra-bundle": "^2.3|^3.0",
-                "symfony/expression-language": "~2.6|~3.0",
-                "symfony/symfony": "^2.3|^3.0",
+                "sensio/framework-extra-bundle": "^2.3 || ^3.0",
+                "symfony/expression-language": "^2.6 || ^3.0",
+                "symfony/symfony": "^2.3 || ^3.0",
                 "twig/twig": "^1.12"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -2121,7 +2121,7 @@
                 "ui",
                 "webinterface"
             ],
-            "time": "2016-08-04 17:10:23"
+            "time": "2016-08-07 08:06:55"
         },
         {
             "name": "jms/twig-js",
