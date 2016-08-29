@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fbf1e682f2b82663519f3eef621dcafa",
-    "content-hash": "f1b1b4f5955b229e1bcbec9d36c3fee5",
+    "hash": "3206d2f0cdb08778a624d15251a49f74",
+    "content-hash": "8eb7924d15f96b781dee49d7604419d6",
     "packages": [
         {
             "name": "7rin0/bigfoot-content-bundle",
@@ -2391,7 +2391,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
