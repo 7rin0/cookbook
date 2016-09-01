@@ -3986,16 +3986,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.1",
+            "version": "v1.24.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
+                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
-                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
+                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
                 "shasum": ""
             },
             "require": {
@@ -4043,7 +4043,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-05-30 09:11:59"
+            "time": "2016-09-01 17:50:53"
         },
         {
             "name": "white-october/pagerfanta-bundle",
@@ -4099,17 +4099,17 @@
         },
         {
             "name": "willdurand/js-translation-bundle",
-            "version": "v2.5.0",
+            "version": "v2.6.0",
             "target-dir": "Bazinga/Bundle/JsTranslationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/BazingaJsTranslationBundle.git",
-                "reference": "2d449d345ec0f83f9479358c1d37111d0cf3df9a"
+                "reference": "26d37937a5b074b410eee18e82ebd4ec95cdb569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/BazingaJsTranslationBundle/zipball/2d449d345ec0f83f9479358c1d37111d0cf3df9a",
-                "reference": "2d449d345ec0f83f9479358c1d37111d0cf3df9a",
+                "url": "https://api.github.com/repos/willdurand/BazingaJsTranslationBundle/zipball/26d37937a5b074b410eee18e82ebd4ec95cdb569",
+                "reference": "26d37937a5b074b410eee18e82ebd4ec95cdb569",
                 "shasum": ""
             },
             "require": {
@@ -4130,7 +4130,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev"
+                    "dev-master": "2.7-dev"
                 }
             },
             "autoload": {
@@ -4154,7 +4154,7 @@
                 "symfony",
                 "translation"
             ],
-            "time": "2015-11-10 13:04:08"
+            "time": "2016-09-01 16:58:52"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
