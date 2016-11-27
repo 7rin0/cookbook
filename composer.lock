@@ -449,12 +449,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craue/CraueFormFlowBundle.git",
+<<<<<<< HEAD
                 "reference": "5cd4ae889cd96a3f3a199f29600a4916635dfc91"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/5cd4ae889cd96a3f3a199f29600a4916635dfc91",
                 "reference": "5cd4ae889cd96a3f3a199f29600a4916635dfc91",
+=======
+                "reference": "7581671267123a87c3e52691bb4e6abaacd54c3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/7581671267123a87c3e52691bb4e6abaacd54c3b",
+                "reference": "7581671267123a87c3e52691bb4e6abaacd54c3b",
+>>>>>>> c7091abbd7a6dab7c690e1f993a366654befdc79
                 "shasum": ""
             },
             "require": {
@@ -505,7 +514,11 @@
                 "symfony3",
                 "wizard"
             ],
+<<<<<<< HEAD
             "time": "2016-11-21 14:03:10"
+=======
+            "time": "2016-09-07 14:02:38"
+>>>>>>> c7091abbd7a6dab7c690e1f993a366654befdc79
         },
         {
             "name": "doctrine/annotations",
@@ -4264,7 +4277,11 @@
         },
         {
             "name": "symfony/phpunit-bridge",
+<<<<<<< HEAD
             "version": "v2.8.14",
+=======
+            "version": "v2.8.11",
+>>>>>>> c7091abbd7a6dab7c690e1f993a366654befdc79
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
