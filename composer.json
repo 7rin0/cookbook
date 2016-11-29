@@ -63,7 +63,8 @@
         "7rin0/bigfoot-content-bundle": "@dev",
         "besimple/i18n-routing-bundle": "@dev",
         "jms/twig-js-bundle": "@dev",
-        "doctrine/data-fixtures": "1.1.1"
+        "doctrine/data-fixtures": "1.1.1",
+        "doctrine/annotations": "1.2.7"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
