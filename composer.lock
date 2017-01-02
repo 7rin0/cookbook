@@ -3957,12 +3957,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig-extensions.git",
-                "reference": "bf98d6c99d83620de0938fef76ae17aa71b052a0"
+                "reference": "e740ab2e3c97b54028f21f9f8314caf6fdc482d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/bf98d6c99d83620de0938fef76ae17aa71b052a0",
-                "reference": "bf98d6c99d83620de0938fef76ae17aa71b052a0",
+                "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/e740ab2e3c97b54028f21f9f8314caf6fdc482d7",
+                "reference": "e740ab2e3c97b54028f21f9f8314caf6fdc482d7",
                 "shasum": ""
             },
             "require": {
@@ -4001,7 +4001,7 @@
                 "i18n",
                 "text"
             ],
-            "time": "2016-10-25 19:15:44"
+            "time": "2017-01-02 20:34:49"
         },
         {
             "name": "twig/twig",
