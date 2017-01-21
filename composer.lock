@@ -2546,16 +2546,16 @@
         },
         {
             "name": "liip/imagine-bundle",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "2b0e6c614be4a79026a3b64d32bc5e9735de35e0"
+                "reference": "d653f4d22b33c2c2870cb87df8a32508186a799a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/2b0e6c614be4a79026a3b64d32bc5e9735de35e0",
-                "reference": "2b0e6c614be4a79026a3b64d32bc5e9735de35e0",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/d653f4d22b33c2c2870cb87df8a32508186a799a",
+                "reference": "d653f4d22b33c2c2870cb87df8a32508186a799a",
                 "shasum": ""
             },
             "require": {
@@ -2600,7 +2600,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -2624,7 +2624,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2017-01-08 18:53:27"
+            "time": "2017-01-20 01:55:04"
         },
         {
             "name": "monolog/monolog",
