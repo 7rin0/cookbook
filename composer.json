@@ -1,0 +1,10 @@
+{
+    "name": "serverino/angularjs2",
+    "authors": [
+        {
+            "name": "Luis SEVERINO",
+            "email": "lfs.severino@gmail.com"
+        }
+    ],
+    "require": {}
+}
