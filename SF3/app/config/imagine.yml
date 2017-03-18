@@ -1,0 +1,9 @@
+# Liip Imagine
+liip_imagine:
+    cache: false
+    filter_sets:
+        # Thumbnail
+        listing_site_1:
+            quality: 90
+            filters:
+                thumbnail: { size: [300, 300], mode : inset }

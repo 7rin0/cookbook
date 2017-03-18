@@ -1,0 +1,45 @@
+imports:
+    - { resource: config.yml }
+    - { resource: "@BigfootCoreBundle/Resources/config/assets.yml" }
+    - { resource: "@BigfootDefaultThemeBundle/Resources/config/assets.yml" }
+    - { resource: "@BigfootNavigationBundle/Resources/config/assets.yml" }
+    - { resource: "@BigfootMediaBundle/Resources/config/assets.yml" }
+
+assetic:
+    variables:
+        locale: ['en', 'fr']
+    bundles: ~
+    debug:          "%kernel.debug%"
+    use_controller: false
+    write_to: '%kernel.root_dir%/../web'
+
+twig:
+    form_themes:
+        - '%bigfoot.theme.bundle%:form_custom:inline.html.twig'
+    globals:
+        theme: "@bigfoot.theme"
+        bigfoot_theme: %bigfoot_theme%
+
+framework:
+    router:
+        resource: "%kernel.root_dir%/config/routing_admin.yml"
+    session:
+        name:       backend_session
+
+monolog:
+    handlers:
+        main:
+            type:  stream
+            path:  %kernel.logs_dir%/%kernel.environment%.log
+            level: debug
+        firephp:
+            type:  firephp
+            level: info
+
+knp_menu:
+    twig:
+        template: %bigfoot.theme.bundle%:admin:menu.html.twig
+
+knp_paginator:
+    template:
+        pagination: %bigfoot.theme.bundle%:admin:sliding.html.twig

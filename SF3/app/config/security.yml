@@ -1,0 +1,62 @@
+# To get started with security, check out the documentation:
+# http://symfony.com/doc/current/book/security.html
+security:
+
+    # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
+    providers:
+        bigfoot:
+            entity:
+                class: BigfootUserBundle:User
+        in_memory:
+            memory: ~
+
+    encoders:
+        Bigfoot\Bundle\UserBundle\Entity\User:
+            algorithm:            pbkdf2
+            hash_algorithm:       sha512
+            encode_as_base64:     true
+            iterations:           1000
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        login_admin_firewall:
+            pattern: ^/admin/login$
+            anonymous:  ~
+
+        back_office:
+            pattern:    ^/admin
+            anonymous:  ~
+            form_login:
+                provider:                       bigfoot
+                login_path:                     /admin/login
+                check_path:                     /admin/login_check
+                always_use_default_target_path: true
+                default_target_path:            /admin/
+            remember_me:
+                secret:      "%secret%"
+                lifetime: 31536000
+                path:     /
+                domain:   ~
+            logout:
+                path:   /admin/logout
+                target: /admin/
+
+        main:
+            anonymous: ~
+            # activate different ways to authenticate
+
+            # http_basic: ~
+            # http://symfony.com/doc/current/book/security.html#a-configuring-how-your-users-will-authenticate
+
+            # form_login: ~
+            # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
+
+    access_control:
+        - { path: ^/admin/login,            roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/forgot-password,  roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/reset-password,   roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin,                  roles: [IS_AUTHENTICATED_FULLY, IS_AUTHENTICATED_REMEMBERED] }

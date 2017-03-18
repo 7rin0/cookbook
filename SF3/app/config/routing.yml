@@ -1,0 +1,34 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+
+bigfoot_context:
+    resource: "@BigfootContextBundle/Controller/"
+    type:     annotation
+    prefix:   /admin
+    schemes: [ %bigfoot.scheme% ]
+
+bigfoot_media:
+    resource: "@BigfootMediaBundle/Resources/config/routing.yml"
+
+bigfoot_navigation:
+    resource: "@BigfootNavigationBundle/Resources/config/routing.yml"
+
+
+PrestaSitemapBundle:
+    resource: "@PrestaSitemapBundle/Resources/config/routing.yml"
+    prefix:   /
+
+_liip_imagine:
+    resource: "@LiipImagineBundle/Resources/config/routing.xml"
+
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+_bazinga_jstranslation:
+    resource: "@BazingaJsTranslationBundle/Resources/config/routing/routing.yml"
+
+i18n_routes:
+    resource: "i18n_routing.yml"
+    type: be_simple_i18n

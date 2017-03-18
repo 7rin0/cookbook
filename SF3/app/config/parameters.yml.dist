@@ -1,0 +1,46 @@
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
+parameters:
+    database_driver: pdo_sqlite
+    database_host: null
+    database_port: null
+    database_name: null
+    database_user: null
+    database_password: null
+    database_path: %kernel.root_dir%/database/sf3_database.sqlite
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    # A secret key that's used to generate certain security-related tokens
+    secret:            ThisTokenIsNotSoSecretChangeIt
+    locale: en
+    bigfoot.theme.values:
+        logo: null
+        title: 'SF3 + Bigfoot'
+        subtitle: 'Bigfoot administration interface'
+    bigfoot.theme.bundle: BigfootDefaultThemeBundle
+    bigfoot.core.upload_dir: uploads/
+    bigfoot.media.portfolio_dir: portfolio/
+    bigfoot_migrate:
+        - Bigfoot\Bundle\UserBundle\Entity\Role
+        - Bigfoot\Bundle\ContentBundle\Entity\Page
+        - Bigfoot\Bundle\ContentBundle\Entity\Attribute
+        - Bigfoot\Bundle\ContentBundle\Entity\Block
+        - Bigfoot\Bundle\ContentBundle\Entity\Sidebar
+        - Bigfoot\Bundle\CoreBundle\Entity\Tag
+        - Bigfoot\Bundle\CoreBundle\Entity\TagCategory
+        - Bigfoot\Bundle\CoreBundle\Entity\Widget
+        - Bigfoot\Bundle\NavigationBundle\Entity\Menu\Item
+        - Bigfoot\Bundle\MediaBundle\Entity\Metadata
+        - Bigfoot\Bundle\MediaBundle\Entity\MediaUsage
+        - Bigfoot\Bundle\MediaBundle\Entity\Media
+#        - Bigfoot\Bundle\SeoBundle\Entity\Metadata
+        - Bigfoot\Bundle\NavigationBundle\Entity\Menu
+        - Bigfoot\Bundle\NavigationBundle\Entity\Menu\Item\Attribute
+    available_languages:
+        - fr
+        - en
