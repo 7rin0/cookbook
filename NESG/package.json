@@ -1,0 +1,39 @@
+{
+  "name": "nesg",
+  "version": "1.0.0",
+  "description": "Node.js + Express + Socket.IO + Grunt ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7rin0/nesg.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Socket.IO",
+    "Grunt"
+  ],
+  "author": "Luis SEVERINO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7rin0/nesg/issues"
+  },
+  "homepage": "https://github.com/7rin0/nesg#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "pug": "^2.0.0-alpha3",
+    "socket.io": "^1.4.5"
+  },
+  "scripts": {},
+  "files": [],
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-nodeunit": "~1.0.0",
+    "grunt-contrib-uglify": "~1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "http-server": "^0.9.0"
+  }
+}
