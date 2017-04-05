@@ -1,0 +1,35 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        promotion:
+            actions: Acțiuni
+            add_action: Adaugă acţiune
+            add_rule: Adaugă regulă
+            coupon_based: Bazat pe cod promoțional
+            description: Descriere
+            ends_at: Se termină la
+            name: Nume
+            rules: Reguli
+            starts_at: Începe la
+            usage_limit: Limita de utilizare
+        promotion_action:
+            fixed_discount_configuration:
+                amount: Sumă
+            type: Tip
+        promotion_coupon:
+            usage_limit: Limita de utilizare
+        promotion_coupon_generator_instruction:
+            amount: Sumă
+            usage_limit: Limita de utilizare
+        promotion_rule:
+            cart_quantity_configuration:
+                count: Număr
+            contains_product_configuration:
+                variants: Produse
+            item_total_configuration:
+                amount: Sumă
+            shipping_country_configuration:
+                country: Țară
+            type: Tip

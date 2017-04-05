@@ -1,0 +1,14 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        product:
+            options: Опцйи
+        association_type:
+            translations: Преводи
+        option:
+            values: Възможни стойности
+        option_value:
+            add_value: Добавяне на стойност
+            value: Стойност

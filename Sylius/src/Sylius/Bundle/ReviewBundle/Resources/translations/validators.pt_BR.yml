@@ -1,0 +1,11 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    review:
+        author:
+            already_exists: Este email já está registrado, por favor realize o Login ou esqueceu sua senha.
+        rating:
+            not_blank: Você deve verificar a revisão de classificação.
+        title:
+            not_blank: Título de revisão não deve ser em branco.

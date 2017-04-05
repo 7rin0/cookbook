@@ -1,0 +1,18 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        shipment:
+            states:
+                checkout: Realitza la compra
+                pending: Pendent
+                cancelled: Cancel·lat
+        shipping_category:
+            description: Descripció
+            name: Nom
+        shipping_method:
+            description: Descripció
+            enabled: Activat
+            name: Nom
+            tax_category: Categoria d'impost

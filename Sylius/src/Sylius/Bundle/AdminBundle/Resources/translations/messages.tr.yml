@@ -1,0 +1,32 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    menu:
+        admin:
+            main:
+                catalog:
+                    attributes: Nitelikler
+                    inventory: Stok
+                    options: Ayarlar
+                configuration:
+                    channels: Kanallar
+                    countries: Ülkeler
+                    currencies: Para birimi
+                    header: Ayarlar
+                    locales: Diller
+                    payment_methods: Ödeme Yöntemleri
+                    shipping_methods: Gönderim metodları
+                    tax_rates: Vergi oranları
+                    zones: Bölgeler
+                marketing:
+                    header: Pazarlama
+                    product_reviews: Ürün Yorumları
+                    promotions: Promosyonlar
+                customers:
+                    customers: Müşteriler
+                    groups: Gruplar
+                    header: Müşteri
+                sales:
+                    header: Satışlar
+                    orders: Siparişler

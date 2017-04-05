@@ -1,0 +1,129 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        block:
+            body: Cos
+            id: ID
+            title: Títol
+        cart:
+            coupon: Cupó
+        checkout:
+            addressing:
+                different_billing_address: Utilitzar diferent adreça de facturació?
+            payment_method: Mètode de pagament
+            shipping_method: Mètode d'enviament
+        group:
+            name: Nom
+            roles: Rols
+        channel:
+            tax_zone_default: Zona d'impostos per defecte
+        image:
+            type: Tipus
+            file: Imatge
+        locale:
+            code: Codi
+            enabled: Activat
+        order_filter:
+            number: Nombre
+            total_from: Des de
+            total_to: A
+            payment_state: Estat de pagament
+        page:
+            body: Cos
+            id: ID
+            title: Títol
+        product:
+            images: Imatges
+            restricted_zone: Àrea restringida
+            short_description: Descripció breu
+            variant_selection_method: Mètode de selecció de variant
+            enabled: Activat
+        product_filter:
+            name: Nom
+            code: Codi
+        product_variant:
+            tax_category: Categoria d'impost
+            shipping_category: Categoria d'enviament
+        shipment_filter:
+            created_at_from: Des de
+            created_at_to: A
+            number: Número de comanda
+            shipping_address: Enviar al nom
+        payment_filter:
+            created_at_from: Des de
+            created_at_to: A
+            number: Número de comanda
+        shipping_method:
+            zone: Zona
+        taxon:
+            code: Codi
+            file: Seleccioneu la imatge
+            images: Imatges
+        taxonomy:
+            file: Seleccioneu la imatge
+        user:
+            billing_address: Adreça de facturació
+            different_billing_address: Utilitzar diferent adreça de facturació?
+            enabled: Activat
+            first_name: Nom
+            groups: Grups
+            roles: Rols
+            last_name: Cognoms
+            password: Contrasenya
+            shipping_address: Adreça d'enviament
+        user_filter:
+            query: Cerca
+        variant:
+            depth: Profunditat
+            height: Alçada
+            on_hand: Stock actual
+            price: Preu
+            sku: SKU
+            weight: Pes
+            width: Amplada
+        guest:
+            email: Correu electrònic
+        product_association_type:
+            name: Nom
+    installer:
+        extensions:
+            apc: APC
+            ctype: Ctype
+            gd: GD
+            help: Instal·lar i permetre l'extensió %extension%.
+            iconv: Iconv
+            icu: ICU
+            intl: Intl
+            json_encode: JSON
+            mbstring: Multibyte String
+            "off": false
+            "on": true
+            pcre: PCRE
+            pdo: PDO
+            php_xml: PHP-XML
+            session_start: Sessió
+            simplexml_import_dom: SimpleXML
+            token_get_all: Tokenizer
+        filesystem:
+            exists: existeix
+            not_exists: no existeix
+            not_writable: Sense permís d`escriptura
+            vendors: vendors
+            writable: que es pugui escriure
+        settings:
+            any: qualsevol
+            detect_unicode: detect_unicode
+            magic_quotes_gpc: magic_quotes_gpc
+            non_deprecated: non deprecated
+            "off": false
+            "on": true
+            register_globals: register_globals
+            session:
+                auto_start: session.auto_start
+            short_open_tag: short_open_tag
+            timezone: fus horari
+            timezone_deprecated:
+                help: 'El fus horari %timezone% és obsolet. Cal corregir el fitxer php. ini (llista de zones horàries obsolet http://php.net/manual/en/timezones.others.php).'
+            version: Versió PHP

@@ -1,0 +1,25 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    menu:
+        admin:
+            main:
+                catalog:
+                    inventory: Lager
+                    options: Indstillinger
+                configuration:
+                    countries: Lande
+                    header: Konfiguration
+                    locales: Landekoder
+                    payment_methods: Betalingsmetoder
+                    shipping_methods: Fragtmetoder
+                    tax_rates: Momssatser
+                    zones: Zoner
+                marketing:
+                    promotions: Kampagner
+                customers:
+                    groups: Grupper
+                sales:
+                    header: Salg
+                    orders: Ordrer

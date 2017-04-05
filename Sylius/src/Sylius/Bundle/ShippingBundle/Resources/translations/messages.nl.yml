@@ -1,0 +1,42 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        rule:
+            unit_count_configuration:
+                count: Aantal
+                equal: Gelijk aan
+            type: Regeltype
+        shipment:
+            state: Status
+            states:
+                checkout: Afrekenen
+                pending: Wachtende
+                ready: Klaar
+                shipped: Verzonden
+                returned: Geretourneerd
+                cancelled: Geannuleerd
+            tracking_code: Tracking Code
+        shipping_calculator:
+            flat_rate_configuration:
+                label: Vast tarief per zending
+                amount: Hoeveelheid
+            per_unit_rate_configuration:
+                label: Forfaitair bedrag per eenheid
+                amount: Hoeveelheid
+        shipping_category:
+            description: Omschrijving
+            name: Naam
+        shipping_method:
+            calculator: Calculator
+            category: Categorie
+            category_requirement: Categorie vereisten
+            channels: Kanalen
+            configuration: Configuratie
+            description: Omschrijving
+            enabled: Toegestaan
+            name: Naam
+            tax_category: Belasting categorie
+            translations: Vertalingen
+            position: Positie

@@ -1,0 +1,22 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    menu:
+        admin:
+            main:
+                catalog:
+                    inventory: Инвентар
+                    options: Опцйи
+                configuration:
+                    countries: Страни
+                    locales: Езикови променливи
+                    payment_methods: Начин на плащане
+                    shipping_methods: Начин на доставка
+                    tax_rates: Данъчни ставки
+                    zones: Зони
+                marketing:
+                    promotions: Промоции
+                sales:
+                    header: Продажби
+                    orders: Поръчки

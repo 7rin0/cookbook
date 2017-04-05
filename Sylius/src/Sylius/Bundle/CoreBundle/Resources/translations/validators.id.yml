@@ -1,0 +1,11 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    contact:
+        email:
+            not_blank: Masukkan email Anda.
+    locale:
+        code:
+            not_blank: Masukkan kode lokal.
+            unique: Lokal ini sudah ada.

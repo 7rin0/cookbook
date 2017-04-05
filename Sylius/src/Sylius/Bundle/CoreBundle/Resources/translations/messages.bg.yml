@@ -1,0 +1,48 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        promotion_action:
+            add_product_configuration:
+                product: Продукт
+        channel:
+            currency_base: Основна валута
+            locales: Езикови променливи
+            payment_methods: Методи на плащане
+            shipping_methods: Начин на доставка
+            taxonomies: Категоризация
+        image:
+            type: Тип
+        order_filter:
+            payment_state: Състояние на плащане
+        product_variant:
+            tax_category: Данъчна категория
+        attribute:
+            product_attribute_value:
+                value: Стойност
+        guest:
+            email: Имейл
+    installer:
+        extensions:
+            header: разширения
+            accelerator:
+                header: Ускорител
+            fileinfo: Инфо за файл
+            "off": false
+            "on": true
+            session_start: Сесия
+        filesystem:
+            header: файлова система
+            cache:
+                header: кеш
+            exists: съществува
+            not_exists: не съществува
+            not_writable: не е записваемо
+            writable: записваемо
+        settings:
+            header: Настройки и версия на PHP
+            "off": false
+            "on": true
+            timezone: часова зона
+            version: Версия на PHP

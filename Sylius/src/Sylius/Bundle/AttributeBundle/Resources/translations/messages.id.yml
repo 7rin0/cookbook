@@ -1,0 +1,11 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        attribute:
+            code: Kode
+            name: Nama
+            type: Jenis
+        attribute_type:
+            select: Pilih

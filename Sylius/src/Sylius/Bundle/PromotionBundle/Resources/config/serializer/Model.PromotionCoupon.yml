@@ -1,0 +1,49 @@
+Sylius\Component\Promotion\Model\PromotionCoupon:
+    exclusion_policy: ALL
+    xml_root_name: promotion-coupon
+    properties:
+        id:
+            expose: true
+            type: integer
+            xml_attribute: true
+            groups: [Default, Detailed]
+        code:
+            expose: true
+            type: string
+            groups: [Default, Detailed]
+        used:
+            expose: true
+            type: integer
+            groups: [Default, Detailed]
+        usageLimit:
+            expose: true
+            type: integer
+            groups: [Default, Detailed]
+        expiresAt:
+            expose: true
+            type: DateTime
+            groups: [Default, Detailed]
+        createdAt:
+            expose: true
+            type: DateTime
+            groups: [Detailed]
+        updatedAt:
+            expose: true
+            type: DateTime
+            groups: [Detailed]
+    relations:
+        -   rel: self
+            href:
+                route: sylius_admin_api_promotion_coupon_show
+                parameters:
+                    promotionCode: expr(object.getPromotion().getCode())
+                    code: expr(object.getCode())
+                    version: 1
+        -   rel: promotion
+            href:
+                route: sylius_admin_api_promotion_show
+                parameters:
+                    code: expr(object.getPromotion().getCode())
+                    version: 1
+            exclusion:
+                groups: [Detailed]

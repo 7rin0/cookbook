@@ -1,0 +1,25 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        product:
+            name: Nume
+            description: Descriere
+            attributes: Atribute
+            options: Opţiuni
+            meta_keywords: Meta cuvinte cheie
+            meta_description: Meta descriere
+        product_variant:
+            name: Nume
+        association_type:
+            name: Nume
+            translations: Traduceri
+        variant:
+            name: Nume
+        option:
+            name: Nume
+            values: Valori posibile
+        option_value:
+            add_value: Adaugă valoare
+            value: Valoare

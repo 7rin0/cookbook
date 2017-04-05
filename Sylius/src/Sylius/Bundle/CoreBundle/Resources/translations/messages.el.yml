@@ -1,0 +1,122 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        block:
+            id: ID
+            title: Τίτλος
+        cart:
+            coupon: Κουπόνι
+        checkout:
+            addressing:
+                different_billing_address: Να γίνει χρήση διαφορετικής διεύθυνσης για τιμολόγηση;
+            payment_method: Τρόπος Πληρωμής
+            shipping_method: Τρόπος Αποστολης
+        promotion_action:
+            add_product_configuration:
+                product: Προϊόν
+        group:
+            name: Ονομασία
+            roles: Ρόλοι
+        channel:
+            tax_zone_default: Προεπιλεγμένη φορολογική ζώνη
+        image:
+            type: Τύπος
+            file: Εικόνα
+        locale:
+            code: Κώδικος
+            enabled: Ενεργοποιημένο
+        order_filter:
+            number: Αριθμός
+            total_from: Από
+            total_to: Προς
+            payment_state: Κατάσταση πληρωμής
+        page:
+            id: ID
+            title: Τίτλος
+        product:
+            images: Εικόνες
+            restricted_zone: Απαγορευμένη ζώνη
+            short_description: Σύντομη περιγραφή
+            variant_selection_method: Μέθοδος επιλογής παραλλαγής
+            enabled: Ενεργοποιημένο
+        product_filter:
+            name: Ονομασία
+            code: Κώδικος
+        product_variant:
+            tax_category: Φορολογική κατηγορία
+            shipping_category: Κατηγορία αποστολής
+        shipment_filter:
+            created_at_from: Από
+            created_at_to: Προς
+            number: Αριθμός Παραγγελίας
+            shipping_address: Αποστολή στο όνομα
+        payment_filter:
+            created_at_from: Από
+            created_at_to: Προς
+            number: Αριθμός Παραγγελίας
+        shipping_method:
+            zone: Ζώνη
+        taxon:
+            code: Κώδικος
+            file: Επιλέξτε εικόνα
+            images: Εικόνες
+        taxonomy:
+            file: Επιλέξτε εικόνα
+        user:
+            billing_address: Διεύθυνση τιμολόγησης
+            different_billing_address: Να γίνει χρήση διαφορετικής διεύθυνσης για τιμολόγηση;
+            enabled: Ενεργοποιημένο
+            first_name: Όνομα
+            groups: Ομάδες
+            roles: Ρόλοι
+            last_name: Επώνυμο
+            password: Κωδικός πρόσβασης
+            shipping_address: Διεύθυνση αποστολής
+        user_filter:
+            query: Αναζήτηση
+        variant:
+            depth: Βάθος
+            height: Ύψος
+            on_hand: Τρέχων απόθεμα
+            price: Τιμή
+            sku: ΚΩΔΙΚΟΣ ΠΡΟΪΟΝΤΟΣ
+            weight: Βάρος
+            width: Πλάτος
+        guest:
+            email: Ηλεκτρονικό ταχυδρομείο
+        product_association_type:
+            name: Ονομασία
+    installer:
+        extensions:
+            apc: APC
+            ctype: Ctype
+            gd: GD
+            json_encode: JSON
+            "off": false
+            "on": true
+            pcre: PCRE
+            pdo: PDO
+            php_xml: PHP-XML
+            session_start: Συνεδρία
+            simplexml_import_dom: SimpleXML
+        filesystem:
+            exists: υπάρχει
+            not_exists: δεν υπάρχει
+            not_writable: χωρίς δυνατότητα εγγραφής
+            writable: εγγράψιμο
+        settings:
+            detect_unicode: detect_unicode
+            magic_quotes_gpc: magic_quotes_gpc
+            non_deprecated: μη παρωχημένο
+            "off": false
+            "on": true
+            register_globals: register_globals
+            session:
+                auto_start: session.auto_start
+            short_open_tag: short_open_tag
+            timezone: ζώνη ώρας
+            timezone_deprecated:
+                help: 'Η Ζώνη ώρας %timezone% δεν χρησιμοποιείται. Διορθώσετε το αρχείο php.ini σας (λίστα με μη χρησιμοποιούμενες ζώνες ώρας εδώ http://php.net/manual/en/timezones.others.php).'
+            version: Έκδοση PHP

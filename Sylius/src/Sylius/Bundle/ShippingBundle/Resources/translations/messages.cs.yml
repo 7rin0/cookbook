@@ -1,0 +1,36 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        rule:
+            unit_count_configuration:
+                count: Počet
+            type: Typ pravidla
+        shipment:
+            state: Stát
+            states:
+                checkout: Objednat
+                pending: Čekající
+                ready: Připraven
+                shipped: Dodáno
+                returned: Vráceno
+                cancelled: Zrušeno
+            tracking_code: Sledovací kód
+        shipping_calculator:
+            flat_rate_configuration:
+                label: Paušální sazba za zásilku
+        shipping_category:
+            description: Popis
+            name: Jméno
+        shipping_method:
+            calculator: Kalkulačka
+            category: Kategorie
+            category_requirement: Požadavek kategorie
+            channels: Kanály
+            configuration: Konfigurace
+            description: Popis
+            enabled: Povoleno
+            name: Jméno
+            tax_category: Typ daně
+            translations: Překlady

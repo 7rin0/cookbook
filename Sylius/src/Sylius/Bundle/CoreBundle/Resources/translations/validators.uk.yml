@@ -1,0 +1,48 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    channel:
+        default_locale:
+            not_blank: Будь ласка, введіть типову локаль каналу.
+        contact_email:
+            invalid: Ця адреса електронної пошти невірна.
+            max: Адреса електронної пошти не має бути довшою за {{ limit }} символ(-и,-ів).
+            min: Адреса електронної пошти має бути щонайменше {{ limit }} символ(-и,-ів).
+    checkout:
+        shipping_method:
+            not_blank: Будь ласка, виберіть спосіб доставки.
+    contact:
+        email:
+            invalid: Ця адреса електронної пошти невірна.
+            not_blank: Будь ласка, введіть свою адресу електронної пошти.
+    customer:
+        currency_code:
+            not_valid: Код валюти, що ви ввели, не є вірним.
+    order:
+        currency_code:
+            not_valid: Код валюти, що ви ввели, не є вірним.
+    locale:
+        code:
+            not_blank: Будь ласка, введіть код локалі.
+            unique: Ця локаль вже існує.
+        enabled:
+            cannot_disable_base: Базова локаль не може бути недоступною.
+    product_variant:
+        onHand:
+            min: Кількість товару під рукою має бути більшою за {{ limit }}.
+            not_blank: Будь ласка, вкажіть кількість товару під рукою.
+        original_price:
+            min: Початкова ціна не має бути негативною.
+    product_translation:
+        short_description:
+            max: Стислий опис має містити не більше {{ limit }} символів.
+    user:
+        email:
+            unique: Ця адреса електронної пошти вже використовується.
+            invalid: Ця адреса електронної пошти невірна.
+        username:
+            unique: Це ім'я користувача вже використовується.
+            not_blank: Будь ласка, введіть ваше ім'я.
+        locale_code:
+            not_blank: Будь ласка, виберіть локаль.

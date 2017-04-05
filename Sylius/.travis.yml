@@ -1,0 +1,69 @@
+language: php
+
+env:
+    global:
+        - SYLIUS_CACHE_DIR=$HOME/.sylius-cache
+        - SYLIUS_BUILD_DIR=etc/build
+
+matrix:
+    include:
+        -
+            sudo: required
+            php: 7.1.0 # PHP 7.1.2 breaks our test suite because of https://bugs.php.net/bug.php?id=74157
+            env:
+                - SYLIUS_SUITE="application"
+                - TRAVIS_NODE_VERSION="7.5"
+            services:
+                - memcached
+        -
+            sudo: false
+            php: 7.1.0 # PHP 7.1.2 breaks our test suite because of https://bugs.php.net/bug.php?id=74157
+            env: SYLIUS_SUITE="docs packages"
+            addons:
+                apt:
+                    packages:
+                        - parallel
+        -
+            sudo: required
+            php: 5.6
+            env:
+                - SYLIUS_SUITE="application"
+                - TRAVIS_NODE_VERSION="7.5"
+            services:
+                - memcached
+
+cache:
+    yarn: true
+    directories:
+        - ~/.composer/cache/files
+        - ~/.cache/pip
+        - vendor
+        - node_modules
+        - $SYLIUS_CACHE_DIR
+
+before_install:
+    - etc/travis/run-suite before_install "${SYLIUS_SUITE}"
+
+install:
+    - etc/travis/run-suite install "${SYLIUS_SUITE}"
+
+before_script:
+    - etc/travis/run-suite before_script "${SYLIUS_SUITE}"
+
+script:
+    - etc/travis/run-suite script "${SYLIUS_SUITE}"
+
+before_cache:
+    - etc/travis/run-suite before_cache "${SYLIUS_SUITE}"
+
+after_success:
+    - etc/travis/run-suite after_success "${SYLIUS_SUITE}"
+
+after_failure:
+    - etc/travis/run-suite after_failure "${SYLIUS_SUITE}"
+
+after_script:
+    - etc/travis/run-suite after_script "${SYLIUS_SUITE}"
+
+notifications:
+    email: false

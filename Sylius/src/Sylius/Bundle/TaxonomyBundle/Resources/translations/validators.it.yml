@@ -1,0 +1,15 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    taxon:
+        code:
+            not_blank: Inserisci il codice del taxon.
+            unique: Taxon con il codice dato esiste già.
+        name:
+            max_length: il nome del taxon non deve essere più lungo di 255 caratteri.
+            not_blank: Inserisci il nome del taxon.
+    taxonomy:
+        name:
+            max_length: Il nome della tassonomia non deve essere più lungo di 255 caratteri.
+            not_blank: Inserisci il nome della tassonomia.

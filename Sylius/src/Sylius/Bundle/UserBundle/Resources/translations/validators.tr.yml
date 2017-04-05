@@ -1,0 +1,11 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    user:
+        email:
+            not_blank: Lütfen e-posta adresinizi girin.
+            invalid: Bu e-posta geçerli değil.
+        plainPassword:
+            not_blank: Lütfen parolanızı girin.
+            mismatch: Girilen parolalar uyuşmuyor

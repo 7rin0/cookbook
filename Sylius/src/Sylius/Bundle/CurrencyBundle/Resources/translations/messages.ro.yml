@@ -1,0 +1,9 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        currency:
+            code: Nume
+            enabled: Activat
+            exchange_rate: Cursul de schimb

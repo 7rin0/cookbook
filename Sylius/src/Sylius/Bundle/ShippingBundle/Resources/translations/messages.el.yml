@@ -1,0 +1,27 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        rule:
+            unit_count_configuration:
+                count: Πλήθος
+        shipment:
+            state: Νομός
+            states:
+                checkout: Ολοκλήρωση αγορών
+                pending: Σε εκκρεμότητα
+                ready: Έτοιμα
+                shipped: Αποστάλθηκαν
+                returned: Επεστράφησαν
+            tracking_code: Κωδικός παρακολούθησης
+        shipping_category:
+            description: Περιγραφή
+            name: Ονομασία
+        shipping_method:
+            category: Κατηγορία
+            configuration: Παραμετροποίηση
+            description: Περιγραφή
+            enabled: Ενεργοποιημένο
+            name: Ονομασία
+            tax_category: Φορολογική κατηγορία

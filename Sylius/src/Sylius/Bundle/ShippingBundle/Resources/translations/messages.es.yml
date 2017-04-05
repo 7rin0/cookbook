@@ -1,0 +1,42 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        rule:
+            unit_count_configuration:
+                count: Contador
+                equal: Igual a
+            type: Tipo de regla
+        shipment:
+            state: Estado
+            states:
+                checkout: Completar pedido
+                pending: Pendiente
+                ready: Listo
+                shipped: Enviado
+                returned: Devuelto
+                cancelled: Cancelado/a
+            tracking_code: Código de seguimiento
+        shipping_calculator:
+            flat_rate_configuration:
+                label: Tarifa plana por envío
+                amount: Cantidad
+            per_unit_rate_configuration:
+                label: Tarifa plana por artículo
+                amount: Cantidad
+        shipping_category:
+            description: Descripción
+            name: Nombre
+        shipping_method:
+            calculator: Calculadora
+            category: Categoría
+            category_requirement: Requisito de la categoría
+            channels: Canales
+            configuration: Configuración
+            description: Descripción
+            enabled: Activado
+            name: Nombre
+            tax_category: Categoría de impuestos
+            translations: Traducciones
+            position: Posición

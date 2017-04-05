@@ -1,0 +1,50 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+sylius:
+    form:
+        promotion:
+            actions: Actions
+            add_action: Add action
+            add_rule: Add rule
+            coupon_based: Coupon based
+            description: Description
+            ends_at: Ends at
+            exclusive: Exclusive
+            name: Name
+            priority: Priority
+            rules: Rules
+            starts_at: Starts at
+            usage_limit: Usage limit
+        promotion_action:
+            fixed_discount_configuration:
+                amount: Amount
+            percentage_discount_configuration:
+                percentage: Percentage
+            type: Type
+        promotion_coupon:
+            expires_at: Expires at
+            usage_limit: Usage limit
+        promotion_coupon_generator_instruction:
+            amount: Amount
+            code_length: Code length
+            expires_at: Expires at
+            usage_limit: Usage limit
+        promotion_filter:
+            price_range: Price range filter
+        promotion_rule:
+            cart_quantity_configuration:
+                count: Count
+                equal: Equal
+            contains_product_configuration:
+                exclude: Exclude
+                variants: Products
+            item_total_configuration:
+                amount: Amount
+            nth_order_configuration:
+                nth: Nth
+            shipping_country_configuration:
+                country: Country
+            taxonomy_configuration:
+                exclude: Exclude
+                taxons: Taxons
+            type: Type

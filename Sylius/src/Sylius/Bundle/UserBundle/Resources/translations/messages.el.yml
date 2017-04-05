@@ -1,0 +1,14 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        user:
+            email: Ηλεκτρονικό ταχυδρομείο
+            enabled: Ενεργοποιημένο
+            password:
+                label: Κωδικός πρόσβασης
+            shipping_address: Διεύθυνση αποστολής
+            username: Όνομα χρήστη
+        user_filter:
+            query: Αναζήτηση

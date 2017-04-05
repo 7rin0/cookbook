@@ -1,0 +1,14 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        promotion:
+            description: Descripció
+            name: Nom
+        promotion_action:
+            type: Tipus
+        promotion_rule:
+            shipping_country_configuration:
+                country: País
+            type: Tipus

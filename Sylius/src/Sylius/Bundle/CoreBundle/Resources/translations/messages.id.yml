@@ -1,0 +1,103 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        block:
+            body: Body
+            id: ID
+            title: Judul
+        cart:
+            coupon: Kupon
+        checkout:
+            addressing:
+                different_billing_address: Menggunakan alamat berbeda untuk penagihan?
+            payment_method: Metode pembayaran
+            shipping_method: Metode pengiriman
+        promotion:
+            channels: Saluran
+        group:
+            name: Nama
+            roles: Peran
+        channel:
+            tax_zone_default: Standar Zona Pajak
+        image:
+            type: Jenis
+            file: Gambar
+        locale:
+            code: Kode
+            enabled: Diaktifkan
+        order_filter:
+            number: Nomor
+            total_from: Dari
+            total_to: Untuk
+        page:
+            body: Body
+            id: ID
+            title: Judul
+        product:
+            images: Gambar
+            restricted_zone: Zona Terbatas
+            short_description: Deskripsi singkat
+            variant_selection_method: Metode Pilih Varian
+            channels: Saluran
+            enabled: Diaktifkan
+        product_filter:
+            name: Nama
+            code: Kode
+        product_variant:
+            tax_category: Kategori Pajak
+            shipping_category: Kategori Pengiriman
+        shipment_filter:
+            created_at_from: Dari
+            created_at_to: Untuk
+            number: Nomor Order
+            shipping_address: Kirim ke Nama
+        payment_filter:
+            created_at_from: Dari
+            created_at_to: Untuk
+            number: Nomor Order
+        shipping_method:
+            zone: Zona
+        taxon:
+            code: Kode
+            file: Pilih Gambar
+            images: Gambar
+        taxonomy:
+            file: Pilih Gambar
+        user:
+            billing_address: Alamat Penagihan
+            different_billing_address: Menggunakan alamat berbeda untuk penagihan?
+            enabled: Diaktifkan
+            first_name: Nama Depan
+            groups: Kelompok
+            roles: Peran
+            last_name: Nama belakang
+            password: Kata sandi
+            shipping_address: Alamat pengiriman
+        user_filter:
+            query: Cari
+        variant:
+            depth: Tebal
+            height: Tinggi
+            on_hand: Stok
+            price: Harga
+            sku: SKU
+            weight: Berat
+            width: Lebar
+        guest:
+            email: Email
+        product_association_type:
+            name: Nama
+        promotion_rule:
+            product:
+                products: Produk
+        payment_method:
+            channels: Saluran
+    installer:
+        extensions:
+            "off": false
+            "on": true
+        settings:
+            "off": false
+            "on": true

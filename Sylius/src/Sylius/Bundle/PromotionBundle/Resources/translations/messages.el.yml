@@ -1,0 +1,25 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        promotion:
+            actions: Ενέργειες
+            description: Περιγραφή
+            ends_at: Τελειώνει σε
+            name: Ονομασία
+            rules: Κανόνες
+            starts_at: Αρχίζει με
+            usage_limit: Όριο χρήσης
+        promotion_action:
+            type: Τύπος
+        promotion_coupon:
+            usage_limit: Όριο χρήσης
+        promotion_coupon_generator_instruction:
+            usage_limit: Όριο χρήσης
+        promotion_rule:
+            cart_quantity_configuration:
+                count: Πλήθος
+            shipping_country_configuration:
+                country: Χώρα
+            type: Τύπος

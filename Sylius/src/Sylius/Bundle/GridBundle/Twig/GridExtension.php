@@ -1,0 +1,46 @@
+<?php
+
+/*
+ * This file is part of the Sylius package.
+ *
+ * (c) Paweł Jędrzejewski
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Sylius\Bundle\GridBundle\Twig;
+
+use Sylius\Bundle\GridBundle\Templating\Helper\GridHelper;
+
+/**
+ * @author Paweł Jędrzejewski <pawel@sylius.org>
+ */
+final class GridExtension extends \Twig_Extension
+{
+    /**
+     * @var GridHelper
+     */
+    private $gridHelper;
+
+    /**
+     * @param GridHelper $gridHelper
+     */
+    public function __construct(GridHelper $gridHelper)
+    {
+        $this->gridHelper = $gridHelper;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getFunctions()
+    {
+        return [
+            new \Twig_SimpleFunction('sylius_grid_render', [$this->gridHelper, 'renderGrid'], ['is_safe' => ['html']]),
+            new \Twig_SimpleFunction('sylius_grid_render_field', [$this->gridHelper, 'renderField'], ['is_safe' => ['html']]),
+            new \Twig_SimpleFunction('sylius_grid_render_action', [$this->gridHelper, 'renderAction'], ['is_safe' => ['html']]),
+            new \Twig_SimpleFunction('sylius_grid_render_filter', [$this->gridHelper, 'renderFilter'], ['is_safe' => ['html']]),
+        ];
+    }
+}

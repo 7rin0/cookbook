@@ -1,0 +1,15 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    contact:
+        email:
+            not_blank: Skriv inn din e-post.
+    locale:
+        code:
+            not_blank: Angi språkskode.
+            unique: Dette språket finnes allerede.
+    product_variant:
+        onHand:
+            min: Du må inneha mer enn {{ limit }}.
+            not_blank: Vennlist angi din beholdning.

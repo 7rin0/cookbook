@@ -1,0 +1,84 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        block:
+            body: Body
+            id: ID
+            title: Titel
+        cart:
+            coupon: Gutschein
+        checkout:
+            addressing:
+                different_billing_address: Eine andere Rechnungsadresse benutzen?
+            payment_method: Zahlungsart
+            shipping_method: Versandarten
+        group:
+            name: Name
+            roles: Rollen
+        channel:
+            tax_zone_default: Standard Steuerzone
+        image:
+            type: Typ
+            file: Bild
+        locale:
+            code: Code
+            enabled: Aktiviert
+        order_filter:
+            created_at_from: Erstellt nach
+            created_at_to: Erstellt vor
+            number: Nummer
+            total_from: Von
+            total_to: zu
+            payment_state: Zahlungsstatus
+        page:
+            body: Body
+            id: ID
+            title: Titel
+        product:
+            restricted_zone: Beschränktes Versandgebiet
+            short_description: Kurzbeschreibung
+            variant_selection_method: Varianten
+            enabled: Aktiviert
+        product_filter:
+            name: Name
+            code: Code
+        product_variant:
+            tax_category: Steuerkategorie
+            shipping_category: Versandkategorie
+        shipment_filter:
+            created_at_from: Von
+            created_at_to: zu
+            number: Auftragsnummer
+            shipping_address: Liefern an
+        payment_filter:
+            created_at_from: Von
+            created_at_to: zu
+            number: Auftragsnummer
+        shipping_method:
+            zone: Zone
+        taxon:
+            code: Code
+            file: Foto auswählen
+        taxonomy:
+            file: Foto auswählen
+        user:
+            billing_address: Rechnungsadresse
+            different_billing_address: Eine andere Rechnungsadresse benutzen?
+            enabled: Aktiviert
+            first_name: Vorname
+            roles: Rollen
+        variant:
+            sku: Bestandseinheit
+        guest:
+            email: E-Mail
+        product_association_type:
+            name: Name
+    installer:
+        extensions:
+            "off": false
+            "on": true
+        settings:
+            "off": false
+            "on": true

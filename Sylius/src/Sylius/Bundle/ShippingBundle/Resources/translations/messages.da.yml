@@ -1,0 +1,29 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        rule:
+            unit_count_configuration:
+                count: Antal
+        shipment:
+            state: Status
+            states:
+                checkout: Til kassen
+                pending: Afventer
+                ready: Klar
+                shipped: Afsendt
+                returned: Returneret
+            tracking_code: Sporingskode
+        shipping_category:
+            description: Beskrivelse
+            name: Navn
+        shipping_method:
+            calculator: Beregner
+            category: Kategori
+            category_requirement: Kategori krav
+            configuration: Konfiguration
+            description: Beskrivelse
+            enabled: Aktiveret
+            name: Navn
+            tax_category: Momskategori

@@ -1,0 +1,13 @@
+# This file is part of the Sylius package.
+# (c) Paweł Jędrzejewski
+
+sylius:
+    form:
+        attribute:
+            choices: Valgmuligheder
+            code: Kode
+            name: Navn
+            type: Type
+        attribute_type:
+            configuration: Konfiguration
+            select: Vælg
